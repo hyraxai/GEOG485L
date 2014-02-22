@@ -7,60 +7,56 @@
     <style type="text/css">
         html { height: 100% }
         body { height: 100%;
-          color: #FFFFFF;
-          background: #737373;
-          margin-left: 10%;
-          margin-right: 10%;
-          font-family: Helvetica, sans-serif;
-          text-align: left}
-  #map_canvas { width:90%;
-    height:80%; 
-    margin-left: 
-    auto; 
-    margin-right: auto }
+                color: #FFFFFF;
+                  background: #737373;
+                    margin-left: 10%;
+                      margin-right: 10%;
+                        font-family: Helvetica, sans-serif;
+                          text-align: left}
+         #map_canvas { width: 90%;
+                        height: 80%;
+                          margin-left: auto;
+                            margin-right: auto }
 </style>
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
 </script>
 <script type="text/javascript">
-  function initialize() {
-    var ReservationWaterTower = new google.maps.LatLng(35.244414,-106.567711)
-    var myOptions = {
-      zoom: 11,
-      center: ReservationWaterTower,
-      mapTypeId: google.maps.MapTypeId.ROAD
-    };
-    var map = new google.maps.Map(document.getElementById("map_canvas"),
-        myOptions);
-  }
+    function initialize() {
+      var ReservationWaterTower = new google.maps.LatLng(35.244414,-106.567711)
+        var myOptions = {
+              zoom: 11,
+                center: ReservationWaterTower,
+                  mapTypeId: google.maps.MapTypeId.ROAD};
+          var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); }
 </script>
 <body>
   	<p>
     <br>
     Lawrence Alderete<br>
-  	29 January 2013
+  	05 February 2014
 	  </p>
 	  <h1>Milestone 3</h1>
-	  <h2>Q1:</h2>
-    <p>What area do you want to depict in your map? Why?</p>
-    <h2>A:</h2>
-    <p>I want to log all of the WiFi nodes that I encounter in a one (1) week time span.  This process is known as "wardriving".  Using a free and open source (FOSS) application on my Android based smartphone, I am able to log every network that I encounter, complete with GPS coordinates of where I first pick up the broadcast of a given signal.</p>
-    <p>I think that all of the data collected using this process would create an interesting map.</p>
-    <h2>Q2:</h2>
-    <p>What is the center point (latitude and longitude) of your area of interest?</p>
-    <h2>A:</h2>
-    <p>Coordinates: 35&#176; 06&#39; 20.04&#34;N 106&#176; 37&#39; 45.41&#34;W.</p>
-	  <h2>Q3:</h2>
-	  <p>What style of map (roads, satellite, hybrid, terrain) is appropriate for your map? Why?</p>
-    <h2>A:</h2>
-    <p>I believe that a road map would be best, as this activity is performed primarily while driving or walking.</p>
-    <h2>Q4:</h2>
-	  <p>What is the scale of your map (local, regional, continental, global)? How will this translate into your selection of an appropriate default zoom level for your map?</p>
-    <h2>A:</h2>
-    <p>Local scale.  I would like the initial zoom level to have all of the data points visible.</p>
-    <h2>Q5:</h2>
-	  <p>Embed a Google Map in your writeup that is based upon your responses to questions 1-4 above.</p>
-    <h2>A:</h2>
+	    <h2>Q1:</h2>
+        <p>What area do you want to depict in your map? Why?</p>
+      <h2>A:</h2>
+        <p>I want to log all of the WiFi nodes that I encounter in a one (1) week time span.  This process is known as "wardriving".  Using a free and open source (FOSS) application on my Android based smartphone, I am able to log every network that I encounter, complete with GPS coordinates of where I first pick up the broadcast of a given signal.</p>
+        <p>I think that all of the data collected using this process would create an interesting map.</p>
+      <h2>Q2:</h2>
+        <p>What is the center point (latitude and longitude) of your area of interest?</p>
+      <h2>A:</h2>
+        <p>Coordinates: 35&#176; 06&#39; 20.04&#34;N 106&#176; 37&#39; 45.41&#34;W.</p>
+	    <h2>Q3:</h2>
+	      <p>What style of map (roads, satellite, hybrid, terrain) is appropriate for your map? Why?</p>
+      <h2>A:</h2>
+        <p>I believe that a road map would be best, as this activity is performed primarily while driving or walking.</p>
+      <h2>Q4:</h2>
+	      <p>What is the scale of your map (local, regional, continental, global)? How will this translate into your selection of an appropriate default zoom level for your map?</p>
+      <h2>A:</h2>
+        <p>Local scale.  I would like the initial zoom level to have all of the data points visible.</p>
+      <h2>Q5:</h2>
+	      <p>Embed a Google Map in your writeup that is based upon your responses to questions 1-4 above.</p>
+      <h2>A:</h2>
 </head>
 <body onload="initialize()">
   <h2>Wardriving Map</h2>
