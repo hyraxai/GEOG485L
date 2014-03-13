@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Midterm Exam</title>
+    <style type="text/css">
+        body { color: #FFFFFF;
+                background: #737373;
+                  margin-left:10%;
+                    margin-right: 10%;
+                      font-family: Helvetica, sans-serif; }
+          a:link { color: #9ECAE1 }
+            a:visited { color: #F7FBFF }
+              a:active { color: #DEEBF7 }
+                a:hover { color: #C6DBEF }
+                  a.plain { text-decoration: none; }
+      </style>
+	</head>
+	  <body>
+  	<p>
+    <br>
+    Lawrence Alderete<br>
+  	12 March 2014
+	  </p>
+	  <h1>Midterm Exam</h1>
+	    <h2>Q1:</h2>
+        	<h3>Which command line utility would you use to determine the following:</h3>
+        		<ol>
+            		<li><h4>The spatial extent of a GML file?</h4></li>
+                		<p>ogrinfo</p>
+                			<li><h4>The spatial reference system of a raster file in the format of a GeoTIFF?</h4></li>
+                  				<p>gdalinfo</p>
+                </ol>
+    	<h2>Q2:</h2>
+        	<h3>What combination of OGC Service and Request (e.g. SERVICE=WMS&REQUEST=GetFeatureInfo) would you use to perform the following?</h3>
+				<ol>
+					<li><h4>Determine the spatial extent of an available layer from a Web Map Service.</h4></li>
+						<p>SERVICE=WMS&REQUEST=GetCapabilities</p>
+							<li><h4>Obtain a list of coverages from a Web Coverage service.</h4></li>
+								<p>SERVICE=WCS&REQUEST=DescribeCoverage</p>
+									<li><h4>Determine what file formats are supported by a Web Feature Service for the delivery of available data types (i.e. layers).</h3></li>
+										<p>SERVICE=WFS&REQUEST=GetCapabilities</p>
+											<li><h4>Retrieve a map image from a Web Map Service.</h4></li>
+												<p>SERVICE=WMS&REQUEST=GetMap</p>
+													<li><h4>Retrieve data from an available coverage from a Web Coverage Service.</h4></li>
+														<p>SERVICE=WCS&REQUEST=GetCoverage</p>
+				</ol>
+		<h2>Q3:</h2>
+			<h3>Use the cs2cs command line utility to convert the following latitude-longitude coordinates (WGS84) to UTM, Zone 13N, NAD83 coordinates.</h3>
+				<ol>
+					<li><h4>35.682180 North Latitude -105.939670 East Longitude (New Mexico State Capitol)</h4></li>
+						<p>414970.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3949105.23 0.00</p>
+							<li><h4>34.891983 North Latitude -107.930153 East Longitude (El Malpais National Monument)</h4></li>
+								<p>232227.14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3864983.25 0.00</p>
+				</ol>
+				<img src="http://i.imgur.com/wZgsWfs.png"/>
+		<h2>Q4:</h2>
+			<h3>Perform the following WMS GetCapabilities request and answer the following questions:</h3>
+			<a href="http://neowms.sci.gsfc.nasa.gov/wms/wms?version=1.1.1&service=WMS&request=GetCapabilities">http://neowms.sci.gsfc.nasa.gov/wms/wms?version=1.1.1&service=WMS&request=GetCapabilities</a>
+				<ul>
+					<li><h4>What is the name of the service?</h4></li>
+						<p>OGC:WMS  (NASA Earth Observations) </p>
+							<li><h4>What file formats are supported by the GetMap request?</h4></li>
+								<p>image/png</p>
+									<p>image/jpeg</p>
+										<li><h4>What are the names of three of the layers included in the service?</h4></li>
+											<p>Cloud Fraction</p>
+												<p>Cloud Particle Radius</p>
+													<p>Cloud Water Content</p>
+				</ul>
+		<h2>Q5:</h2>
+			<h3>Compose a GetMap request for the WMS referenced in Question 4 that includes the following characteristics:</h3>
+				<ol>
+					<li><h4>JPEG image format</h4></li>
+						<li><h4>1200 pixels wide (you will need to calculate the height based upon the aspect ratio of the bounding box)</h4></li>
+							<li><h4>Bounding Box (EPSG:4326): Min X = -128 East Longitude, Min Y = 21.5 North Latitude, Max X = -62 East Longitude, Max Y = 54.5 North Latitude</h4></li>
+								<li><h4>Layer to be mapped = “MOD_LSTD_CLIM_M”</h4></li>
+				</ol>
+			<h3>Include in your answer both the complete WMS GetMap request and the resulting map image that is returned.</h3>
+				<a href="http://neowms.sci.gsfc.nasa.gov/wms/wms?
+						VERSION=1.1.1&
+						SERVICE=WMS&REQUEST=GetMap&
+						BBOX=-128,21.5,-62,54.5&
+						LAYERS=MOD_LSTD_CLIM_M&
+						WIDTH=1200&
+						HEIGHT=600&
+						SRS=EPSG:4326&
+						FORMAT=image/jpeg&
+						STYLES=">http://neowms.sci.gsfc.nasa.gov/wms/wms?
+						VERSION=1.1.1&
+						SERVICE=WMS&REQUEST=GetMap&
+						BBOX=-128,21.5,-62,54.5&
+						LAYERS=MOD_LSTD_CLIM_M&
+						WIDTH=1200&
+						HEIGHT=600&
+						SRS=EPSG:4326&
+						FORMAT=image/jpeg&
+						STYLES=</a>
+					<br>
+					<br>
+				<img src="http://i.imgur.com/wa8uOV2.jpg"/>
+		<h2>Q6:</h2>
+			<h3>From the XML GetCapabilities returned by the following WFS request answer the following questions:</h3>
+			<a href="http://services.nationalmap.gov/arcgis/services/WFS/transportation/MapServer/WFSServer?request=GetCapabilities&service=WFS"/>http://services.nationalmap.gov/arcgis/services/WFS/transportation/MapServer/WFSServer?request=GetCapabilities&service=WFS</a>
+				<ul>
+					<li><h4>What is the title for this service?</h4></li>
+						<p>WFS_transportation</p>
+							<li><h4>What file format(s) are supported by this service’s GetFeature request?</h4></li>
+								<p>text/xml</p>
+									<p>text/gml</p>
+										<li><h4>What is the DefaultSRS or the FeatureType named “WFS_transportation:Interstate”?</h4></li>
+											<p>urn:ogc:def:crs:EPSG:6.9:4326</p>
+												<li><h4>What is the WGS84BoundingBox of the FeatureType named “WFS_transportation:Interstate”?</h4></li>
+													<p>Lower: -158.10419299999992&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21.277850000000058</p>
+														<p>Upper: -67.781173999999908&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;49.002374000000088</p>
+				</ul>
+		<h2>Q7:</h2>
+			<h3>From the XML GetCapabilities returned by the following WCS request answer the following questions:</h3>
+			<a href="http://sdf.ndbc.noaa.gov/thredds/wcs/hfradar_uswc_500m?request=GetCapabilities&version=1.0.0&service=WCS"/>http://sdf.ndbc.noaa.gov/thredds/wcs/hfradar_uswc_500m?request=GetCapabilities&version=1.0.0&service=WCS</a>
+				<ul>
+					<li><h4>What is the description of the v coverage?</h4></li>
+						<p>v m s-1 true surface_northward_sea_water_velocity</p>
+							<li><h4>How many coverages are available from this service?</h4></li>
+								<p>Four (4) coverages are available.  They are “v”, “u”, “DOPy”, and “DOPx”.</p>
+				</ul>
+		<h2>Q8a:</h2>
+			<h3>Formulate a complete DescribeCoverage request for the v coverage for the WCS service referenced in Question 7.</h3>
+				<a href="http://sdf.ndbc.noaa.gov/thredds/wcs/hfradar_uswc_500m?service=WCS&version=1.0.0&request=DescribeCoverage&COVERAGE=v"/>http://sdf.ndbc.noaa.gov/thredds/wcs/hfradar_uswc_500m?service=WCS&version=1.0.0&request=DescribeCoverage&COVERAGE=v</a>
+		<h2>Q8b:</h2>
+			<h3>From the returned XML document answer the following questions:</h3>
+				<ul>
+					<li><h4>What is the spatial domain for the ‘v‘ coverage?</h4></li>
+						<p>-122.59346771240234&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;37.45548629760742</p>
+							<p>-122.0468978881836&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;38.13872528076172</p>
+								<li><h4>What file formats are available for ‘v‘ data delivered by this service?</h4></li>
+									<p>GeoTIFF</p>
+										<p>GeoTIFF_Float</p>
+											<p>NetCDF3</p>
+												<li><h4>What SRS(s) are supported by this service for requested data delivery?</h4></li>
+													<p>urn:ogc:def:crs:OGC:1.3:CRS84</p>
+														<p>EPSG:0 [Latitude_Longitude]</p>
+				</ul>
+			<p></p>
+		<br>
+	</body>
+</html>
