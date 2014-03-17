@@ -27,29 +27,79 @@
 	    	<h2>Q1:</h2>
         		<h3>Briefly describe each dataset based upon the information from the web site.</h3>
       		<h2>A:</h2>
-        		<ol>
-        			<li></li>
-        				<li></li>
-        					<li></li>
-        		</ol>
+        		<ul>
+        			<li>RGIS: NM Fire Burn Severity 1999</li>
+        				<li>RGIS: NM Fire Burn Severity 1989</li>
+        					<li>RGIS: State Boundary - 2010</li>
+        		</ul>
       		<h2>Q2:</h2>
         		<h3>Examine each file using either gdalinfo or ogrinfo (depending upon whether it is a raster or vector data product), and answer the following questions about each data set:</h3>
 					<ol>
 						<li>What is the projection/coordinate system for the data product? If it is undefined, note it.</li>
 							<li>What is the spatial extent (i.e. bounding box) of the data product?</li>
-								<li>If it is a vector dataset, how many features does it have?</li>
-									<li>If it is a raster dataset, what is the pixel resolution (include units) of the dataset?</li>
+								<li>If it is a vector dataset, how many features does it have? If it is a raster dataset, what is the pixel resolution (include units) of the dataset?</li>
 					</ol>
 			<h2>A:</h2>
-        		<ol>
-			  		<li></li>
-			    		<li></li>
-			      			<li></li>
-								<li></li>
-				</ol>
+        		<ul>
+			  		<li>RGIS: NM Fire Burn Severity 1999</li><br>
+			  			<ol>
+			  				<li>WGS 84</li>
+			  					<li>Upper Left  (-110.0232204,  37.5000530) (110d 1'23.59"W, 37d30' 0.19"N)<br>
+										Lower Left  (-110.0232204,  30.7942843) (110d 1'23.59"W, 30d47'39.42"N)<br>
+											Upper Right (-102.5113321,  37.5000530) (102d30'40.80"W, 37d30' 0.19"N)<br>
+												Lower Right (-102.5113321,  30.7942843) (102d30'40.80"W, 30d47'39.42"N)</li>
+			  						<li>(0.000292496234262,-0.000292496234262), TIFFTAG_RESOLUTIONUNIT=1 (unitless)</li><br>
+			  			</ol>
+			  			<li>RGIS: NM Fire Burn Severity 1989</li><br>
+			  				<ol>
+			  					<li>WGS 84</li>
+			  						<li>Upper Left (-110.0232204,  37.5000530) (110d 1'23.59"W, 37d30' 0.19"N)<br>
+											Lower Left (-110.0232204,  30.7942843) (110d 1'23.59"W, 30d47'39.42"N)<br>
+												Upper Right (-102.5113321,  37.5000530) (102d30'40.80"W, 37d30' 0.19"N)<br>
+													Lower Right (-102.5113321,  30.7942843) (102d30'40.80"W, 30d47'39.42"N)</li>
+			  							<li>(0.000292496234262,-0.000292496234262), TIFFTAG_RESOLUTIONUNIT=1 (unitless)</li><br>
+			  				</ol>
+			  				<li>RGIS: State Boundary - 2010</li><br>
+			  					<ol>
+			  						<li>NAD 83</li>
+			  							<li>(-109.050173, 31.332172) - (-103.001964, 37.000293)</li>
+			  								<li>Feature Count: 1</li>
+			  					</ol>
+			  	</ul>
 	    	<h2>Q3:</h2>
-	      		<p>Use proj or cs2cs (I suggest you use cs2cs) to calculate the coordinates of the spatial extent of the datasets that you downloaded in UTM Zone 13N, NAD27. Paste the input and output of the command(s) into your writeup.</p>
+	      		<p>Use proj or cs2cs to calculate the coordinates of the spatial extent of the datasets that you downloaded in UTM Zone 13N, NAD27. Paste the input and output of the command(s) into your writeup.</p>
       		<h2>A:</h2>
-        		<p></p>
+      			<ul>
+        			<li>NM Fire Burn Severity 1999</li><br>
+        				Macintosh:~ lpa2$ cs2cs +proj=latlong +datum=WGS84 +to +proj=utm +zone=13 +datum=NAD27 -r<br>
+						37.5000530&nbsp;&nbsp;-110.0232204<br>
+						55899.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4162009.94 0.00<br>
+						30.7942843&nbsp;&nbsp;-110.0232204<br>
+						19180.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3417414.37 0.00<br>
+						37.5000530&nbsp;&nbsp;-102.5113321<br>
+						720038.47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4153051.89 0.00<br>
+						30.7942843&nbsp;&nbsp;-102.5113321<br>
+						738173.46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3409252.83 0.00<br>
+						<br>
+			  		<li>NM Fire Burn Severity 1989</li><br>
+			  			Macintosh:~ lpa2$ cs2cs +proj=latlong +datum=WGS84 +to +proj=utm +zone=13 +datum=NAD27 -r<br>
+						37.5000530&nbsp;&nbsp;-110.0232204<br>
+						55899.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4162009.94 0.00<br>
+						30.7942843&nbsp;&nbsp;-110.0232204<br>
+						19180.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3417414.37 0.00<br>
+						37.5000530&nbsp;&nbsp;-102.5113321<br>
+						720038.47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4153051.89 0.00<br>
+						30.7942843&nbsp;&nbsp;-102.5113321<br>
+						738173.46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3409252.83 0.00<br>
+						<br>
+			  		<li>State Boundary - 2010</li><br>
+			  			Macintosh:~ lpa2$ cs2cs +proj=latlong +datum=NAD83 +to +proj=utm +zone=13 +datum=NAD27 -r<br>
+						31.332172&nbsp;&nbsp;-109.050173<br>
+						114593.77&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3473308.64 -0.00<br>
+						37.000293&nbsp;&nbsp;-103.001964<br>
+						677834.42&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4096566.54 -0.00<br>
+				</ul>
+				<br>
 	</body>
 </html>
+
