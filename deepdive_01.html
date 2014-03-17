@@ -1,1 +1,82 @@
-.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Deep Dive 1</title>
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%;
+                color: #FFFFFF;
+                  background: #737373;
+                    margin-left: 5%;
+                      margin-right: 5%;
+                        font-family: Helvetica, sans-serif;
+                          text-align: center}
+		  a:link { color: #9ECAE1 }
+            a:visited { color: #F7FBFF }
+              a:active { color: #DEEBF7 }
+                a:hover { color: #C6DBEF }
+        		  a.plain { text-decoration: none; }
+        #map_canvas { width: 90%;
+                        height:80%;
+                          margin-left: auto;
+                            margin-right: auto }
+</style>
+<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+	function initialize() {
+    	var ReservationWaterTower = new google.maps.LatLng(35.244414,-106.567711)
+      		var myOptions = {
+            		zoom: 11,
+              			center: ReservationWaterTower,
+                			mapTypeId: google.maps.MapTypeId.ROAD,
+      styles:[
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#808080" },
+      { "weight": 2 }
+    ]
+  },{
+    "featureType": "poi.school",
+    "stylers": [
+      { "visibility": "on" },
+      { "hue": "#ff0000" },
+      { "weight": 8 },
+      { "saturation": 100 }
+    ]
+  },{
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "weight": 4 }
+    ]
+  },{
+  }
+]
+    };
+				var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); }
+</script>
+	</head>
+		<body onload="initialize()">
+			<p>
+    <br>
+    <a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
+    <a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
+    <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
+    <a class="plain" href="https://www.wolframalpha.com/input/?i=12+February+2014"/>12 February 2014</a> 
+	  </p>
+  <h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/milestones/milestones.html#week-4---styling-of-an-embedded-google-map"/>Deep Dive 1 (Web-based Mapping Clients: Google Maps API - Part II, Related Topics)</a></h1>
+  	<div id="map_canvas"></div>
+</body>
+<br>
+<br>
+<br>
+</html>
+
