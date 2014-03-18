@@ -105,14 +105,18 @@
         		<h3>Use the cs2cs utility to convert the following WGS84 Geographic Coordinates into UTM Zone 13, NAD83 coordinates. Include your cs2cs command and output in your writeup.<h3>
 					<ul>
 						<li>35°14′19.29″ N, 107°36′30.67″ W (Mount Taylor Summit)</li>
-						<p>(35.238692&nbsp;&nbsp;107.608519)</p>
 						<li>34°16′40.34″ N, 103°19′28.49″ W (Blackwater Draw)</li>
 						<p>(34.277872&nbsp;&nbsp;103.324581)</p>
 					</ul>
         	<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
+        			<li>Macintosh:~ lpa2$ cs2cs +init="EPSG:4326" +to +init="EPSG:26913"<br>
+						107d36'30.67"W&nbsp;&nbsp;&nbsp;&nbsp;35d14'19.29"N<br>
+						262633.94&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3902632.48 0.00</li>
+						<br>
+        			<li>Macintosh:~ lpa2$ cs2cs +init="EPSG:4326" +to +init="EPSG:26913"<br>
+        				103d19'28.49"W&nbsp;&nbsp;&nbsp;&nbsp;34d16'40.34"N<br>
+						654223.84&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3794236.77 0.00</li>
         		</ul>
         	<h2>Q8:</h2>
         		<h3>Retrieve the GetCapabilities XML response from the following WMS, and answer the following questions.</h3>
