@@ -28,7 +28,9 @@
 	    	<h2>Q1:</h2>
         		<h3>What request type is common across all three (WMS, WFS, WCS) OGC web services that we have learned about?</h3>
       		<h2>A:</h2>
-      			<p></p>
+      			<ul>
+      				<li>GetCapabilities</li>
+      			</ul>
       		<h2>Q2:</h2>
       			<h3>Answer the following questions about a WMS GetCapabilities request:</h3>
       				<ul>
@@ -37,8 +39,11 @@
 					</ul>
 			<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
+        			<li>"SERVICE" (service name)<br>
+        				"VERSION" (service version)<br> 
+        				"REQUEST"(operation name)</li>
+        					<br>
+        			<li>A Capabilities XML file describing the service.</li>
         		</ul>
         	<h2>Q3:</h2>
         		<h3>Answer the following questions about a WMS GetMap request</h3>
@@ -49,14 +54,27 @@
 					</ul>
         	<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
-        			<li></li>
+        			<li>"SERVICE" (service name)<br>
+        				"VERSION" (service version)<br>
+        				"REQUEST" (operation name)<br>
+        				"LAYERS" (display layers)<br>
+        				"STYLES" (layer styles)<br>
+        				"SRS" or "CRS" (spatial reference system)<br>
+        				"BBOX" (map extent)<br>
+        				"WIDTH" (width in pixels)<br>
+        				"HEIGHT" (height in pixels)<br>
+        				"FORMAT" (format for the output)</li>
+        					<br>
+        			<li>A map image, or other output.</li>
+        				<br>
+        			<li>Transparency dictates whether or not the map's background should be transparent, which in turn effects which layers are presented.</li>
         		</ul>
         	<h2>Q4:</h2>
         		<h3>What OGC request would you use to inform the configuration of a client application (like ArcGIS) about an OGC service that you want to add layers from?</h3>
 			<h2>A:</h2>
-        		<p></p>
+				<ul>
+        			<li>GetCapabilities</li>
+        		</ul>
         	<h2>Q5:</h2>
         		<h3>Which OGC request would you submit under the following circumstances (include both the service type [e.g. WMS, WFS, WCS], and the request [e.g. GetMap, GetCapabilities, GetCoverage, etc.] in your answer)<h3>
         			<ul>
@@ -66,9 +84,9 @@
 					</ul>
         	<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
-        			<li></li>
+        			<li>GetMap</li>
+        			<li>GetFeature</li>
+        			<li>GetCoverage</li>
         		</ul>
         	<h2>Q6:</h2>
         		<h3>What are the EPSG codes of the following Spatial Reference Systems:</h3>
@@ -79,15 +97,17 @@
 					</ul>
         	<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
-        			<li></li>
+        			<li>EPSG:4326</li>
+        			<li>EPSG:26913</li>
+        			<li>EPSG:26713</li>
         		</ul>
         	<h2>Q7:</h2>
         		<h3>Use the cs2cs utility to convert the following WGS84 Geographic Coordinates into UTM Zone 13, NAD83 coordinates. Include your cs2cs command and output in your writeup.<h3>
 					<ul>
 						<li>35°14′19.29″ N, 107°36′30.67″ W (Mount Taylor Summit)</li>
+						<p>(35.238692&nbsp;&nbsp;107.608519)</p>
 						<li>34°16′40.34″ N, 103°19′28.49″ W (Blackwater Draw)</li>
+						<p>(34.277872&nbsp;&nbsp;103.324581)</p>
 					</ul>
         	<h2>A:</h2>
         		<ul>
@@ -109,14 +129,43 @@
         				</ul>
         	<h2>A:</h2>
         		<ul>
-        			<li></li>
-        			<li></li>
-        			<li></li>
-        			<li></li>
+        			<li>rgis Dataset (715663ba-c1c3-414c-84a7-c671526f8316)</li>
+        				<br>
+        			<li>GStore Support</li>
+        				<br>
+        			<li>image/png<br>
+						image/gif<br>
+						image/jpeg<br>
+						image/png; mode=8bit<br>
+						image/tiff</li>
+        				<br>
+        			<li>EPSG:4269<br>
+						EPSG:4326<br>
+						EPSG:4267<br>
+						EPSG:26913<br>
+						EPSG:26912<br>
+						EPSG:26914<br>
+						EPSG:26713<br>
+						EPSG:26712<br>
+						EPSG:26714<br>
+						EPSG:3857<br>
+        			</li>
         		</ul>
         	<h2>Q9:</h2>
         		<h3>Formulate a GetMap request for the “tl_2010_35_bg10” layer from this service, for a 500x500 pixel map image that is 0.05-degrees wide and 0.05-degress high, with the SW corner of the map image located at 35°N and -106°45'E. Include in your write-up the complete GetMap request and the returned map image.</h3>
         	<h2>A:</h2>
-        		<p></p>
+        		<p><a href="http://gstore.unm.edu/apps/rgis/datasets/715663ba-c1c3-414c-84a7-c671526f8316/services/ogc/wms?SERVICE=WMS&VERSION=1.1&REQUEST=GetMap&LAYERS=tl_2010_35_bg10&SRS=EPSG:4326&BBOX=-106.0,35,-105.95,35.05&WIDTH=500&HEIGHT=500&FORMAT=image/png
+        		"/>http://gstore.unm.edu/apps/rgis/datasets/715663ba-c1c3-414c-84a7-c671526f8316/services/ogc/wms?
+        		SERVICE=WMS&<br>
+        		VERSION=1.1&<br>
+        		REQUEST=GetMap&<br>
+        		LAYERS=tl_2010_35_bg10&<br>
+        		SRS=EPSG:4326&<br>
+        		BBOX=-106.0,35,-105.95,35.05&<br>
+        		WIDTH=500&<br>
+        		HEIGHT=500&<br>
+        		FORMAT=image/png</a>
+        		</p>
+        		<img src="http://gstore.unm.edu/apps/rgis/datasets/715663ba-c1c3-414c-84a7-c671526f8316/services/ogc/wms?SERVICE=WMS&VERSION=1.1&REQUEST=GetMap&LAYERS=tl_2010_35_bg10&SRS=EPSG:4326&BBOX=-106.0,35,-105.95,35.05&WIDTH=500&HEIGHT=500&FORMAT=image/png"/>
 	</body>
 </html>
