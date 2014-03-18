@@ -1,1 +1,122 @@
-.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Deep Dive 2</title>
+    <style type="text/css">
+        body { color: #FFFFFF;
+                background: #737373;
+                  margin-left:10%;
+                    margin-right: 10%;
+                      font-family: Helvetica, sans-serif; }
+          a:link { color: #9ECAE1 }
+            a:visited { color: #F7FBFF }
+              a:active { color: #DEEBF7 }
+                a:hover { color: #C6DBEF }
+                  a.plain { text-decoration: none; }
+      </style>
+	</head>
+	<p>
+    <br>
+    <a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
+    <a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
+    <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
+    <a class="plain" href="https://www.wolframalpha.com/input/?i=28+February+2014"/>28 February 2014</a> 
+	  </p>
+	  	<h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/deep-dives/deep-dives.html#week-6-ogc-service-concepts"/>Deep Dive 2 (OGC Service Concepts)</a></h1>
+	    	<h2>Q1:</h2>
+        		<h3>What request type is common across all three (WMS, WFS, WCS) OGC web services that we have learned about?</h3>
+      		<h2>A:</h2>
+      			<p></p>
+      		<h2>Q2:</h2>
+      			<h3>Answer the following questions about a WMS GetCapabilities request:</h3>
+      				<ul>
+        				<li>What are the required parameters, and what do they represent?</li>
+						<li>What is returned in response to a WMS GetCapabilities request?</li>
+					</ul>
+			<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q3:</h2>
+        		<h3>Answer the following questions about a WMS GetMap request</h3>
+        			<ul>
+        				<li>What are the required parameters, and what do they represent?</li>
+						<li>What is returned in response to a WMS GetMap request?</li>
+						<li>What is the significance of transparency in WMS requests?</li>
+					</ul>
+        	<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q4:</h2>
+        		<h3>What OGC request would you use to inform the configuration of a client application (like ArcGIS) about an OGC service that you want to add layers from?</h3>
+			<h2>A:</h2>
+        		<p></p>
+        	<h2>Q5:</h2>
+        		<h3>Which OGC request would you submit under the following circumstances (include both the service type [e.g. WMS, WFS, WCS], and the request [e.g. GetMap, GetCapabilities, GetCoverage, etc.] in your answer)<h3>
+        			<ul>
+        				<li>You want a map image representing three layers of data in a single JPEG for a specified area of interest.</li>
+						<li>You want to retrieve data representing geometries and associated attributes for a road network, with the returned data in GML.</li>
+						<li>You want to retrieve data representing a digital elevation model (a raster dataset) in the form of a GeoTIFF.</li>
+					</ul>
+        	<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q6:</h2>
+        		<h3>What are the EPSG codes of the following Spatial Reference Systems:</h3>
+        			<ul>
+        				<li>WGS 84 (Geodetic CRS [geographic 2d])</li>
+						<li>NAD83 / UTM zone 13N</li>
+						<li>NAD27 / UTM zone 13N</li>
+					</ul>
+        	<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q7:</h2>
+        		<h3>Use the cs2cs utility to convert the following WGS84 Geographic Coordinates into UTM Zone 13, NAD83 coordinates. Include your cs2cs command and output in your writeup.<h3>
+					<ul>
+						<li>35°14′19.29″ N, 107°36′30.67″ W (Mount Taylor Summit)</li>
+						<li>34°16′40.34″ N, 103°19′28.49″ W (Blackwater Draw)</li>
+					</ul>
+        	<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q8:</h2>
+        		<h3>Retrieve the GetCapabilities XML response from the following WMS, and answer the following questions.</h3>
+        		<p><a href="http://gstore.unm.edu/apps/rgis/datasets/715663ba-c1c3-414c-84a7-c671526f8316/services/ogc/wms?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1
+        			"/>http://gstore.unm.edu/apps/rgis/datasets/715663ba-c1c3-414c-84a7-c671526f8316/services/ogc/wms?<br>
+        			SERVICE=wms&<br>
+        			REQUEST=GetCapabilities&<br>
+        			VERSION=1.1.1</a>
+        				<ul>
+        					<li>What is the Title of the service?</li>
+							<li>Who is the Contact Person for questions about the service?</li>
+							<li>What are the available image formats for the GetMap request for this service?</li>
+							<li>What are the SRS/CRS’s for which layers from this service are available (remember that nested layers inherit the SRS/CRS of their parent layers).</li>	
+        				</ul>
+        	<h2>A:</h2>
+        		<ul>
+        			<li></li>
+        			<li></li>
+        			<li></li>
+        			<li></li>
+        		</ul>
+        	<h2>Q9:</h2>
+        		<h3>Formulate a GetMap request for the “tl_2010_35_bg10” layer from this service, for a 500x500 pixel map image that is 0.05-degrees wide and 0.05-degress high, with the SW corner of the map image located at 35°N and -106°45'E. Include in your write-up the complete GetMap request and the returned map image.</h3>
+        	<h2>A:</h2>
+        		<p></p>
+	</body>
+</html>
