@@ -29,39 +29,88 @@
 <script type="text/javascript">
 	function initialize() {
     	var ReservationWaterTower = new google.maps.LatLng(35.244414,-106.567711)
-      		var myOptions = {
-            		zoom: 11,
-              			center: ReservationWaterTower,
-                			mapTypeId: google.maps.MapTypeId.ROAD,
-      styles:[
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      { "visibility": "on" },
-      { "color": "#808080" },
-      { "weight": 2 }
-    ]
-  },{
-    "featureType": "poi.school",
-    "stylers": [
-      { "visibility": "on" },
-      { "hue": "#ff0000" },
-      { "weight": 8 },
-      { "saturation": 100 }
-    ]
-  },{
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry.fill",
-    "stylers": [
-      { "visibility": "on" },
-      { "weight": 4 }
-    ]
-  },{
-  }
-]
-    };
-				var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); }
+    	var bosque = new google.maps.LatLng(35.186847, -106.586320)
+		var broken = new google.maps.LatLng(35.187997, -106.662354)
+		var chama = new google.maps.LatLng(35.140193, -106.599930)
+		var kaktus = new google.maps.LatLng(35.308299, -106.538756)
+		var lacumbre = new google.maps.LatLng(35.118086, -106.613939)
+		var ilvicino = new google.maps.LatLng(35.120605, -106.617938)
+		var marble = new google.maps.LatLng(35.093019, -106.646654)
+		var nexus = new google.maps.LatLng(35.133891, -106.606019)
+		var tractor = new google.maps.LatLng(35.079709, -106.606914)
+		var turtle = new google.maps.LatLng(35.243125, -106.664711)
+      	var myOptions = {
+    		zoom: 11,
+            center: ReservationWaterTower,
+         	mapTypeId: google.maps.MapTypeId.ROAD,};
+
+				var map = new google.maps.Map(
+				document.getElementById("map_canvas"), 
+				myOptions);
+				
+				var bosqueMarker = new google.maps.Marker({
+					position: bosque,
+					title:”Bosque Brewing Co.”
+					});
+				bosqueMarker.setMap(map);
+
+				var brokenMarker = new google.maps.Marker({
+					position: broken,
+					title:”Broken Bottle Brewery”
+					});
+				brokenMarker.setMap(map);
+
+				var chamaMarker = new google.maps.Marker({
+					position: chama,
+					title:”Chama River Brewing Co.”
+					});
+				chamaMarker.setMap(map);
+
+				var kaktusMarker = new google.maps.Marker({
+					position: kaktus,
+					title:”Kaktus Brewing Company”
+					});
+				kaktusMarker.setMap(map);
+
+				var lacumbreMarker = new google.maps.Marker({
+					position: lacumbre,
+					title:”La Cumbre Brewing Co.”
+					});
+				lacumbreMarker.setMap(map);
+
+				var ilvicinoMarker = new google.maps.Marker({
+					position: ilvicino,
+					title:”Il Vicino Brewing Canteen”
+					});
+				ilvicinoMarker.setMap(map);
+
+				var marbleMarker = new google.maps.Marker({
+					position: marble,
+					title:”Marble Brewery”
+					});
+				marbleMarker.setMap(map);
+
+				var nexusMarker = new google.maps.Marker({
+					position: nexus,
+					title:”Nexus Brewery”
+					});
+				nexusMarker.setMap(map);
+
+				var tractorMarker = new google.maps.Marker({
+					position: tractor,
+					title:”Tractor Brewing Co.”
+					});
+				tractorMarker.setMap(map);
+
+				var turtleMarker = new google.maps.Marker({
+					position: turtle,
+					title:”Turtle Mountain Brewing Company”
+					});
+				turtleMarker.setMap(map);
+				
+				});
+				
+		}
 </script>
 	</head>
 		<body onload="initialize()">
