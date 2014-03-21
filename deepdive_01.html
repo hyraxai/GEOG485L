@@ -1,209 +1,147 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml">
-		<head>
-			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-				<title>Deep Dive 1</title>
-					<style type="text/css">
-						html { height: 100% }
-							body { height: 100%;
-								color: #FFFFFF;
-									background: #737373;
-										margin-left: 5%;
-											margin-right: 5%;
-												font-family: Helvetica, sans-serif;
-													text-align: center}
-						a:link { color: #9ECAE1 }
-							a:visited { color: #F7FBFF }
-								a:active { color: #DEEBF7 }
-									a:hover { color: #C6DBEF }
-										a.plain { text-decoration: none; }
-						#map_canvas { width: 90%;
-							height:80%;
-								margin-left: auto;
-									margin-right: auto }
-					</style>
-					<script type="text/javascript"
-							src="http://maps.google.com/maps/api/js?sensor=false">
-					</script>
-					<script type="text/javascript">
-							function initialize() {
-									var bosque = new google.maps.LatLng(35.186847, -106.586320)
-									var broken = new google.maps.LatLng(35.187997, -106.662354)
-									var chama = new google.maps.LatLng(35.140193, -106.599930)
-									var kaktus = new google.maps.LatLng(35.308299, -106.538756)
-									var lacumbre = new google.maps.LatLng(35.118086, -106.613939)
-									var ilvicino = new google.maps.LatLng(35.120605, -106.617938)
-									var marble = new google.maps.LatLng(35.093019, -106.646654)
-									var nexus = new google.maps.LatLng(35.133891, -106.606019)
-									var tractor = new google.maps.LatLng(35.079709, -106.606914)
-									var turtle = new google.maps.LatLng(35.243125, -106.664711)
-									var ReservationWaterTower = new google.maps.LatLng(35.244414,-106.567711)
-									var myOptions = {
-										zoom: 11,
-										center: ReservationWaterTower,
-										mapTypeId: google.maps.MapTypeId.ROAD,
-									};
-									var map = new google.maps.Map(
-										document.getElementById("map_canvas"), 
-										myOptions);
-									var bosqueMarker = new google.maps.Marker({
-										position: bosque,
-										title:”Bosque Brewing Co.”
-										});
-										bosqueMarker.setMap(map);
-									var brokenMarker = new google.maps.Marker({
-										position: broken,
-										title:”Broken Bottle Brewery”
-										});
-										brokenMarker.setMap(map);
-									var chamaMarker = new google.maps.Marker({
-										position: chama,
-										title:”Chama River Brewing Co.”
-										});
-										chamaMarker.setMap(map);
-									var kaktusMarker = new google.maps.Marker({
-										position: kaktus,
-										title:”Kaktus Brewing Company”
-										});
-										kaktusMarker.setMap(map);
-									var lacumbreMarker = new google.maps.Marker({
-										position: lacumbre,
-										title:”La Cumbre Brewing Co.”
-										});
-										lacumbreMarker.setMap(map);
-									var ilvicinoMarker = new google.maps.Marker({
-										position: ilvicino,
-										title:”Il Vicino Brewing Canteen”
-										});
-										ilvicinoMarker.setMap(map);
-									var marbleMarker = new google.maps.Marker({
-										position: marble,
-										title:”Marble Brewery”
-										});
-										marbleMarker.setMap(map);
-									var nexusMarker = new google.maps.Marker({
-										position: nexus,
-										title:”Nexus Brewery”
-										});
-										nexusMarker.setMap(map);
-									var tractorMarker = new google.maps.Marker({
-										position: tractor,
-										title:”Tractor Brewing Co.”
-										});
-										tractorMarker.setMap(map);
-									var turtleMarker = new google.maps.Marker({
-										position: turtle,
-										title:”Turtle Mountain Brewing Company”
-										});
-										turtleMarker.setMap(map);
-									var bosqueInfoContent = '<div class="infoBox">' +
-										'<p>Flavor is Boss</p>' +
-										'</div>'
-									var bosqueInfoWindow = new google.maps.InfoWindow({
-										content: bosqueInfoContent
-										});
-										google.maps.event.addListener(bosqueMarker,'click', function() {
-											bosqueInfoWindow.open(map,bosqueMarker);
-										});
-									var brokenInfoContent = '<div class="infoBox">' +
-										'<p>Albuquerque&#39s first westside brewery</p>' +
-										'</div>'	
-									var brokenInfoWindow = new google.maps.InfoWindow({
-										content: brokenInfoContent
-										});
-										google.maps.event.addListener(brokenMarker,'click', function() {
-											brokenInfoWindow.open(map,brokenMarker);
-										});
-									var chamaInfoContent = '<div class="infoBox">' +
-										'<p>New Mexico#39s most award winning Micro-Brewery</p>' +
-										'</div>'	
-									var chamaInfoWindow = new google.maps.InfoWindow({
-										content: chamaInfoContent
-										});
-										google.maps.event.addListener(chamaMarker,'click', function() {
-											chamaInfoWindow.open(map,chamaMarker);
-										});
-									var kaktusInfoContent = '<div class="infoBox">' +
-										'<p>Bernalillo Brewery</p>' +
-										'</div>'	
-									var kaktusInfoWindow = new google.maps.InfoWindow({
-										content: kaktusInfoContent
-										});
-										google.maps.event.addListener(kaktusMarker,'click', function() {
-											kaktusInfoWindow.open(map,kaktusMarker);
-										});
-									var lacumbreInfoContent = '<div class="infoBox">' +
-										'<p>New Mexico Beers at their peak</p>' +
-										'</div>'										
-									var lacumbreInfoWindow = new google.maps.InfoWindow({
-										content: lacumbreInfoContent
-										});
-										google.maps.event.addListener(labumbreMarker,'click', function() {
-											lacumbreInfoWindow.open(map,lacumbreMarker);
-										});
-									var ilvicinoInfoContent = '<div class="infoBox">' +
-										'<p>Believe in Beer...</p>' +
-										'</div>'										
-									var ilvicinoInfoWindow = new google.maps.InfoWindow({
-										content: ilvicinoInfoContent
-										});
-										google.maps.event.addListener(ilvicinoMarker,'click', function() {
-											ilvicinoInfoWindow.open(map,ilvicinoMarker);
-										});
-									var marbleInfoContent = '<div class="infoBox">' +
-										'<p>Rock. Solid. Beer.</p>' +
-										'</div>'										
-									var marbleInfoWindow = new google.maps.InfoWindow({
-										content: marbleInfoContent
-										});
-										google.maps.event.addListener(marbleMarker,'click', function() {
-											marbleInfoWindow.open(map,marbleMarker);
-										});
-									var nexusInfoContent = '<div class="infoBox">' +
-										'<p>Albuquerque#39s craft beer and soul food connection.</p>' +
-										'</div>'
-									var nexusInfoWindow = new google.maps.InfoWindow({
-										content: nexusInfoContent
-										});
-										google.maps.event.addListener(nexusMarker,'click', function() {
-											nexusInfoWindow.open(map,nexusMarker);
-										});
-									var tractorInfoContent = '<div class="infoBox">' +
-										'<p>Get Plowed!</p>' +
-										'</div>'
-										'<p>Get Plowed</p>' +
-										'</div>'										
-									var tractorInfoWindow = new google.maps.InfoWindow({
-										content: tractorInfoContent
-										});
-										google.maps.event.addListener(tractorMarker,'click', function() {
-											tractorInfoWindow.open(map,tractorMarker);
-										});
-									var turtleInfoContent = '<div class="infoBox">' +
-										'<p>Rio Rancho#39s Neighborhood Brewpub Sine 1999</p>' +
-										'</div>'	
-									var turtleInfoWindow = new google.maps.InfoWindow({
-										content: turtleInfoContent
-										});
-										google.maps.event.addListener(turtleMarker,'click', function() {
-											turtleInfoWindow.open(map,turtleMarker);
-										});
-							}
-					</script>
-		</head>
-			<body onload="initialize()">
-				<p>
-			<br>
-		<a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
-		<a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
-		<a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
-		<a class="plain" href="https://www.wolframalpha.com/input/?i=12+February+2014"/>12 February 2014</a> 
-				</p>
-		<h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/deep-dives/deep-dives.html#week-4-creation-of-a-a-google-maps-web-page-with-custom-points-and-labels"/>Milestone 4 (Creation of a a Google Maps Web Page with Custom Points and Labels)</a></h1>
-		<div id="map_canvas"></div>
-			</body>
-			<br>
-		<br>
-	<br>
-</html>
 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Milestone 4</title>
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%;
+                color: #FFFFFF;
+                  background: #737373;
+                    margin-left: 5%;
+                      margin-right: 5%;
+                        font-family: Helvetica, sans-serif;
+                          text-align: center}
+		  a:link { color: #9ECAE1 }
+            a:visited { color: #F7FBFF }
+              a:active { color: #DEEBF7 }
+                a:hover { color: #C6DBEF }
+        		  a.plain { text-decoration: none; }
+        #map_canvas { width: 90%;
+                        height:80%;
+                          margin-left: auto;
+                            margin-right: auto }
+</style>
+<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+	function initialize() {
+    	var bosque = new google.maps.LatLng(35.186847,-106.586320);
+    	var broken = new google.maps.LatLng(35.187997,-106.662354);
+		var chama = new google.maps.LatLng(35.140193,-106.599930);
+		var kaktus = new google.maps.LatLng(35.308299,-106.538756);
+		var lacumbre = new google.maps.LatLng(35.118086,-106.613939);
+		var ilvicino = new google.maps.LatLng(35.120605,-106.617938);
+		var marble = new google.maps.LatLng(35.093019,-106.646654);
+		var nexus = new google.maps.LatLng(35.133891,-106.606019);
+		var tractor = new google.maps.LatLng(35.079709,-106.606914);
+		var turtle = new google.maps.LatLng(35.243125,-106.664711);
+    	var mylatlng = new google.maps.LatLng(35.244414,-106.567711)
+      		var myOptions = {
+            		zoom: 11,
+              			center: mylatlng,
+                			mapTypeId: google.maps.MapTypeId.ROAD,
+      styles:[
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#808080" },
+      { "weight": 2 }
+    ]
+  },{
+    "featureType": "poi.school",
+    "stylers": [
+      { "visibility": "on" },
+      { "hue": "#ff0000" },
+      { "weight": 8 },
+      { "saturation": 100 }
+    ]
+  },{
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "weight": 4 }
+    ]
+  },{
+  }
+]
+    };
+				var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
+				var marker = new google.maps.Marker({
+				    position: mylatlng,
+				    map: map,
+				    title: 'Hello World!'
+				});
+				var bosqueMarker = new google.maps.Marker({
+					position: bosque,
+					map: map,
+					title:'Bosque Brewing Co.'
+				});
+				var brokenMarker = new google.maps.Marker({
+					position: broken,
+					map: map,
+					title:'Broken Bottle Brewery'
+				});
+				var chamaMarker = new google.maps.Marker({
+					position: chama,
+					map: map,
+					title:'Chama River Brewing Co.'
+				});
+				var kaktusMarker = new google.maps.Marker({
+					position: kaktus,
+					map: map,
+					title:'Kaktus Brewing Company'
+				});
+				var lacumbreMarker = new google.maps.Marker({
+					position: lacumbre,
+					map: map,
+					title:'La Cumbre Brewing Co.'
+				});
+				var ilvicinoMarker = new google.maps.Marker({
+					position: ilvicino,
+					map: map,
+					title:'Il Vicino Brewing Canteen'
+				});
+				var marbleMarker = new google.maps.Marker({
+					position: marble,
+					map: map,
+					title:'Marble Brewery'
+					});
+				var nexusMarker = new google.maps.Marker({
+					position: nexus,
+					map: map,
+					title:'Nexus Brewery'
+				});
+				var tractorMarker = new google.maps.Marker({
+					position: tractor,
+					map: map,
+					title:'Tractor Brewing Co.'
+				});
+				var turtleMarker = new google.maps.Marker({
+					position: turtle,
+					map: map,
+					title:'Turtle Mountain Brewing Company'
+				});								
+    }
+</script>
+	</head>
+		<body onload="initialize()">
+			<p>
+    <br>
+    <a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
+    <a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
+    <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
+    <a class="plain" href="https://www.wolframalpha.com/input/?i=12+February+2014"/>12 February 2014</a> 
+	  </p>
+  <h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/deep-dives/deep-dives.html#week-4-creation-of-a-a-google-maps-web-page-with-custom-points-and-labels"/>Milestone 4 (Creation of a a Google Maps Web Page with Custom Points and Labels)</a></h1>
+  	<div id="map_canvas"></div>
+</body>
+<br>
+<br>
+<br>
+</html>
