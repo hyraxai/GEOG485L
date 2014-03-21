@@ -20,8 +20,11 @@
         		  a.plain { text-decoration: none; }
         #map_canvas { width: 90%;
                         height:80%;
-                          margin-left: auto;
-                            margin-right: auto }
+                        	color: #000000;
+                          			margin-left: auto;
+                            			margin-right: auto
+                            				font-family: Helvetica, sans-serif;
+                          						text-align: center }
 </style>
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
@@ -33,7 +36,7 @@
             zoom: 11,
             center: mylatlng,
             mapTypeId: google.maps.MapTypeId.ROAD,
-      styles:[
+      		styles:[
   {
     "featureType": "road.arterial",
     "elementType": "geometry.stroke",
