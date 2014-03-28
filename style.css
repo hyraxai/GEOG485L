@@ -1,0 +1,34 @@
+html {
+  height: 100% 
+}
+body {
+	  height: 100%;
+    color: #FFFFFF;
+    background: #737373;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Helvetica, sans-serif;
+    text-align: left
+}
+a:link {
+  color: #9ECAE1 
+}
+a:visited {
+  color: #F7FBFF 
+}
+a:active {
+  color: #DEEBF7 
+}
+a:hover {
+  color: #C6DBEF 
+}
+a.plain {
+  text-decoration: none; 
+}
+.pagination .left {
+  float: left;
+}
+.pagination .right {
+  float: right;
+}
+
