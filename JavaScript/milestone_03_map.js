@@ -5,6 +5,8 @@ function initialize(){
         center: ReservationWaterTower,
         mapTypeId: google.maps.MapTypeId.ROAD};
     var map = new google.maps.Map(document.getElementById("milestone_03_map"), mapOptions);
-    var georssLayer = new google.maps.KmlLayer('http://lpa2.github.io/GEOG485L/XML/WigleWifi_20140207085042.kml');
-        georssLayer.setMap(map);
+    var WiFiLayer = new google.maps.KmlLayer({
+        url: 'http://lpa2.github.io/GEOG485L/XML/WigleWifi_20140207085042.kml'
+    });
+        WiFiLayer.setMap(map);
 }
