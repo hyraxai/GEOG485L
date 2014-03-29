@@ -4,143 +4,137 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<title>Milestone 6</title>
-    <style type="text/css">
-        body { color: #FFFFFF;
-                background: #737373;
-                  margin-left:10%;
-                    margin-right: 10%;
-                      font-family: Helvetica, sans-serif; }
-          a:link { color: #9ECAE1 }
-            a:visited { color: #F7FBFF }
-              a:active { color: #DEEBF7 }
-                a:hover { color: #C6DBEF }
-                  a.plain { text-decoration: none; }
-      </style>
+    <link href="../GEOG485L/CSS/style.css" rel="stylesheet" type="text/css" media="screen">
+<script src="../GEOG485L/JavaScript/geog485_analytics.js" type="text/javascript">
+</script>
 	</head>
 	  <body>
 	<p>
-    <br>
+<br>
     <a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
     <a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
     <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
     <a class="plain" href="https://www.wolframalpha.com/input/?i=26+February+2014"/>26 February 2014</a> 
-	  </p>
+  </p>
 	  	<h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/milestones/milestones.html#week-6---wms-kml"/>Milestone 6 (Interoperability Standards - XML, KML, and WMS)</a></h1>
 	    	<h2>Q1:</h2>
-        		<h3>What search engine did you use?</h3>
-      		<h2>A:</h2>
-      			<ul>
-        			<li>Google</li>
-        		</ul>
-      		<h2>Q2:</h2>
-        		<h3>How many ‘hits’ did you get?</h3>
-        	<h2>A:</h2>
-        		<ul>
-        			<li>“REQUEST=GetCapabilities” returned about 133,000 results.</li>
-        				<li>“SERVICE=WMS” returned about 12,700,000 results.</li>
-        		</ul>
+          <h3>What search engine did you use?</h3>
+      	<h2>A:</h2>
+      	  <ul>
+        	  <li>Google</li>
+        	</ul>
+      	<h2>Q2:</h2>
+          <h3>How many ‘hits’ did you get?</h3>
+        <h2>A:</h2>
+          <ul>
+        	  <li>“REQUEST=GetCapabilities” returned about 133,000 results.</li>
+        		<li>“SERVICE=WMS” returned about 12,700,000 results.</li>
+        	</ul>
 	    	<h2>Q3:</h2>
-	      		<h3>How useful (generally in terms of getting a pointers to live WMS services [defined as a functioning GetCapabilities request]) were the ‘hits’?</h3>
-      		<h2>A:</h2>
-      			<ul>
-        			<li>The results were pretty useful, I was able to find a link with a functioning GetCapabilities request on the first page.</li>
-        		</ul>
-        	<h2>Q4:</h2>
-        		<h3>Pick two of the services that included live "GetCapabilities" requests that you found above, and answer the following questions about each:</h3>
-        			<ol>
-        				<li>What is the URL for the full GetCapabilities request to the service?</li>
-        					<li>What is the Name of the service? </li>
-        						<li>What Format(s) are available for GetMap requests from the service?</li>
-        							<li>How many layers are included in the service (including nesting layers)?</li>
-        			</ol>
-      		<h2>A:</h2>
-        		<h3>Service #1</h3>
-        			<ol>
-        				<li><a href="http://www.gis.northlincs.gov.uk/geoserver/Inspire/wms?request=getCapabilities"/>http://www.gis.northlincs.gov.uk/geoserver/Inspire/wms?request=getCapabilities</a></li>
-        					<li>WMS - North Lincolnshire Council Web Map Service</li>
-        						<li>The available formats are as follows:
-        							<ul>
-        								<li>image/png</li>
-											<li>application/atom+xml</li>
-												<li>application/pdf</li>
-													<li>application/vnd.google-earth.kml+xml</li>
-														<li>application/vnd.google-earth.kml+xml;mode=networklink</li>
-															<li>application/vnd.google-earth.kmz</li>
-																<li>image/geotiff</li>
-																	<li>image/geotiff8</li>
-																		<li>image/gif</li>
-																			<li>image/jpeg</li>
-																				<li>image/png; mode=8bit</li>
-																					<li>image/svg+xml</li>
-																						<li>image/tiff</li>
-																							<li>image/tiff8</li>
-																								<li>text/plain</li>
-																									<li>application/vnd.ogc.gml</li>
-																										<li>application/vnd.ogc.gml/3.1.1</li>
-																											<li>text/html</li>
-																												<li>application/json</li>
-    								</ul></li>
-        							<li>Fifty-three (53) layers are available.</li>
-        			</ol>
-        		<h3>Service #2</h3>
-        			<ol>
-        				<li><a href="http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities"/>http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities</a></li>
-        					<li>WMS - Welsh Government WMS View Service</li>
-        						<li>The available formats are as follows:
-        							<ul>
-        								<li>image/png</li>
-											<li>application/atom+xml</li>
-												<li>application/pdf</li>
-													<li>application/vnd.google-earth.kml+xml</li>
-														<li>application/vnd.google-earth.kml+xml;mode=networklink</li>
-															<li>application/vnd.google-earth.kmz</li>
-																<li>image/geotiff</li>
-																	<li>image/geotiff8</li>
-																		<li>image/gif</li>
-																			<li>image/jpeg</li>
-																				<li>image/png; mode=8bit</li>
-																					<li>image/svg+xml</li>
-																						<li>image/tiff</li>
-																							<li>image/tiff8</li>
-																								<li>text/plain</li>
-																									<li>application/vnd.ogc.gml</li>
-																										<li>application/vnd.ogc.gml/3.1.1</li>
-																											<li>text/html</li>
-																												<li>application/json</li>
-    								</ul></li>
-        							<li>Fifty-two (52) layers are available.</li>
-        			</ol>
-      		<h2>Q5:</h2>
-        		<h3>For one of the layers in the first service:</h3>
-        			<ol>
-        				<li>What is the name of the layer?</li>
-        					<li>What is the SRS of the layer?</li>
-        						<li>What is the name of the projection that matches the SRS EPSG code?</li>
-        							<li>What is the LatLonBoundingBox of the layer?</li>
-        			</ol>
-        	<h2>A:</h2>
-        		<ol>
-        			<li>AirMonitoringAutomaticLocations</li>
-        				<li>EPSG:27700 and CRS:84</li>
-        					<li>British National Grid</li>
-        						<li><code>CRS="EPSG:27700" minx="490001.998631542" miny="408127.004115538" maxx="514880.002883236" maxy="416133.002422362"</code></li>
+	        <h3>How useful (generally in terms of getting a pointers to live WMS services [defined as a functioning GetCapabilities request]) were the ‘hits’?</h3>
+      	<h2>A:</h2>
+      	  <ul>
+        	  <li>The results were pretty useful, I was able to find a link with a functioning GetCapabilities request on the first page.</li>
+          </ul>
+        <h2>Q4:</h2>
+          <h3>Pick two of the services that included live "GetCapabilities" requests that you found above, and answer the following questions about each:</h3>
+        	  <ol>
+        		  <li>What is the URL for the full GetCapabilities request to the service?</li>
+        			<li>What is the Name of the service? </li>
+        			<li>What Format(s) are available for GetMap requests from the service?</li>
+        			<li>How many layers are included in the service (including nesting layers)?</li>
         		</ol>
+      	<h2>A:</h2>
+          <h3>Service #1</h3>
+        	  <ol>
+        		  <li><a href="http://www.gis.northlincs.gov.uk/geoserver/Inspire/wms?request=getCapabilities"/>http://www.gis.northlincs.gov.uk/geoserver/Inspire/wms?request=getCapabilities</a></li>
+        			<li>WMS - North Lincolnshire Council Web Map Service</li>
+              <li>The available formats are as follows:
+                <ul>
+                  <li>image/png</li>
+									<li>application/atom+xml</li>
+									<li>application/pdf</li>
+									<li>application/vnd.google-earth.kml+xml</li>
+									<li>application/vnd.google-earth.kml+xml;mode=networklink</li>
+									<li>application/vnd.google-earth.kmz</li>
+									<li>image/geotiff</li>
+									<li>image/geotiff8</li>
+									<li>image/gif</li>
+									<li>image/jpeg</li>
+									<li>image/png; mode=8bit</li>
+									<li>image/svg+xml</li>
+									<li>image/tiff</li>
+									<li>image/tiff8</li>
+									<li>text/plain</li>
+									<li>application/vnd.ogc.gml</li>
+									<li>application/vnd.ogc.gml/3.1.1</li>
+									<li>text/html</li>
+									<li>application/json</li>
+    						</ul>
+              </li>
+        			<li>Fifty-three (53) layers are available.</li>
+                </ol>
+        	<h3>Service #2</h3>
+        	  <ol>
+        		  <li><a href="http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities"/>http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities</a></li>
+        			<li>WMS - Welsh Government WMS View Service</li>
+        			<li>The available formats are as follows:
+        			  <ul>
+        				  <li>image/png</li>
+									<li>application/atom+xml</li>
+									<li>application/pdf</li>
+									<li>application/vnd.google-earth.kml+xml</li>
+									<li>application/vnd.google-earth.kml+xml;mode=networklink</li>
+									<li>application/vnd.google-earth.kmz</li>
+									<li>image/geotiff</li>
+									<li>image/geotiff8</li>
+									<li>image/gif</li>
+									<li>image/jpeg</li>
+									<li>image/png; mode=8bit</li>
+									<li>image/svg+xml</li>
+									<li>image/tiff</li>
+									<li>image/tiff8</li>
+									<li>text/plain</li>
+									<li>application/vnd.ogc.gml</li>
+									<li>application/vnd.ogc.gml/3.1.1</li>
+									<li>text/html</li>
+									<li>application/json</li>
+    						</ul>
+              </li>
+        		  <li>Fifty-two (52) layers are available.</li>
+        	  </ol>
+      	<h2>Q5:</h2>
+          <h3>For one of the layers in the first service:</h3>
+        	  <ol>
+        		  <li>What is the name of the layer?</li>
+        			<li>What is the SRS of the layer?</li>
+        			<li>What is the name of the projection that matches the SRS EPSG code?</li>
+        			<li>What is the LatLonBoundingBox of the layer?</li>
+        		</ol>
+        <h2>A:</h2>
+          <ol>
+        	  <li>AirMonitoringAutomaticLocations</li>
+        		<li>EPSG:27700 and CRS:84</li>
+        		<li>British National Grid</li>
+        		<li><code>CRS="EPSG:27700" minx="490001.998631542" miny="408127.004115538" maxx="514880.002883236" maxy="416133.002422362"</code></li>
+        	</ol>
 	    	<h2>Q6:</h2>
-	      		<h3>Open the following GetCapabilities request in your browser. Select “View Source” from the browser menu to see the delivered XML document (it may appear as an unformatted string of text by default in your browser - if that is the case, save the file to your hard drive and view it in a text editor). Use the information in the XML capabilities document to formulate GetMap requests for the following map images. Include the requests and resulting images in your write-up. Comment on anything unusual that you notice in the images that are returned.</h3>
-	      			<a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1
-	      			"/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
+	        <h3>Open the following GetCapabilities request in your browser. Select “View Source” from the browser menu to see the delivered XML document (it may appear as an unformatted string of text by default in your browser - if that is the case, save the file to your hard drive and view it in a text editor). Use the information in the XML capabilities document to formulate GetMap requests for the following map images. Include the requests and resulting images in your write-up. Comment on anything unusual that you notice in the images that are returned.</h3>
+	      	  <a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1
+	      	    "/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
 	      			SERVICE=wms&<br>
 	      			REQUEST=GetCapabilities&<br>
 	      			VERSION=1.1.1</a>
-	      				<ul>
-	      					<li>for the area surrounding Bernalillo County (-107.2,34.7,-106,35.25) as a 200x200 pixel JPEG</li>
-	      						<li>for the same area as a 500x500 pixel PNG </li>
-	      				</ul>
-      		<h2>A:</h2>
-      			<ul>
-      				<li>QUERY: <br>
-      					<br>
-      					<a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=200&amp;HEIGHT=200&amp;SRS=EPSG:4269&amp;FORMAT=image/jpeg&amp;STYLES=
+	      		  <ul>
+	      			  <li>for the area surrounding Bernalillo County (-107.2,34.7,-106,35.25) as a 200x200 pixel JPEG</li>
+	      				<li>for the same area as a 500x500 pixel PNG </li>
+	      			</ul>
+      	<h2>A:</h2>
+      	  <ul>
+      		  <li>QUERY:
+<br>
+<br>
+     				  <a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=200&amp;HEIGHT=200&amp;SRS=EPSG:4269&amp;FORMAT=image/jpeg&amp;STYLES=
       					"/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
       					VERSION=1.1.1&amp;<br>
       					SERVICE=WMS&amp;<br>
@@ -152,39 +146,52 @@
       					SRS=EPSG:4269&amp;<br>
       					FORMAT=image/jpeg&amp;<br>
       					STYLES=</a></li>
-      						<br>
-      					<li>IMAGE:<br></li>
-      						<br>
-      						<img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=200&amp;HEIGHT=200&amp;SRS=EPSG:4269&amp;FORMAT=image/jpeg&amp;STYLES=" alt="Question 6, Image 1."/></li>
-      							<br>
-									<br>
-      						<li>QUERY: <br>
-      							<br>
-      							<a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=500&amp;HEIGHT=500&amp;SRS=EPSG:4326&amp;FORMAT=image/png&amp;STYLES=
-      							"/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
-      							VERSION=1.1.1&amp;<br>
-      							SERVICE=WMS&amp;<br>
-      							REQUEST=GetMap&amp;<br>
-      							BBOX=-107.2,34.7,-106,35.25&amp;<br>
-      							LAYERS=2007fe_35_county&amp;<br>
-      							WIDTH=500&amp;<br>
-      							HEIGHT=500&amp;<br>
-      							SRS=EPSG:4326&amp;<br>
-      							FORMAT=image/png&amp;<br>
-      							STYLES="</a></li>
-      								<br>
-      							<li>IMAGE:<br></li>
-      								<br>
-      								<img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=500&amp;HEIGHT=500&amp;SRS=EPSG:4326&amp;FORMAT=image/png&amp;STYLES=" alt="Question 6, Image 2."/>
-      			</ul>	
-      		<h2>Q7:</h2>
-      			<h3>Open the following (linked) KML file in Google Earth, uncompress it, and save the contained KML file on your computer. Open the KML file in a text editor.</h3>
-      				<a href="http://rgis.unm.edu/gstore/datasets/3f0a85aa-b7f8-47bd-8db6-1c0e66becf72/nm_state_bdy_00.derived.kml"/>http://rgis.unm.edu/gstore/datasets/3f0a85aa-b7f8-47bd-8db6-1c0e66becf72/nm_state_bdy_00.derived.kml</a>
-      					<h3>Add a second Placemark element to the KML file that represents a square region that is completely contained within the state boundary. Save the KML file and open it in Google Earth or view it in Google Maps as demonstrated in the lecture to verify that you have successfully created the file. Submit the KML file (as a link in your writeup) as part of your writeup for the milestone.</h3>
-      		<h2>A:</h2>
-      			<ul>
-      				<li><a href="http://lpa2.github.io/GEOG485L/milestone_06.kml"/>http://lpa2.github.io/GEOG485L/milestone_06.kml</a></li>
-      				<li><a href="https://maps.google.com/maps?q=http://lpa2.github.io/GEOG485L/milestone_06.kml"/>Milestone 6 KML on Google Maps</a>
-      			</ul>
-	</body>
+<br>
+  					<li>IMAGE:</li>
+<br>
+<br>
+   						<img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=200&amp;HEIGHT=200&amp;SRS=EPSG:4269&amp;FORMAT=image/jpeg&amp;STYLES=" alt="Question 6, Image 1."/></li>
+<br>
+<br>
+            <li>QUERY:</li>
+<br>
+<br>
+              <a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=500&amp;HEIGHT=500&amp;SRS=EPSG:4326&amp;FORMAT=image/png&amp;STYLES=
+      				  "/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
+      					VERSION=1.1.1&amp;<br>
+      					SERVICE=WMS&amp;<br>
+      					REQUEST=GetMap&amp;<br>
+      					BBOX=-107.2,34.7,-106,35.25&amp;<br>
+      					LAYERS=2007fe_35_county&amp;<br>
+      					WIDTH=500&amp;<br>
+      					HEIGHT=500&amp;<br>
+      					SRS=EPSG:4326&amp;<br>
+      					FORMAT=image/png&amp;<br>
+      					STYLES="</a></li>
+<br>
+      			<li>IMAGE:</li>
+<br>
+<br>
+      			  <img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&amp;REQUEST=GetMap&amp;BBOX=-107.2,34.7,-106,35.25&amp;LAYERS=2007fe_35_county&amp;WIDTH=500&amp;HEIGHT=500&amp;SRS=EPSG:4326&amp;FORMAT=image/png&amp;STYLES=" alt="Question 6, Image 2."/>
+      		</ul>	
+      	<h2>Q7:</h2>
+      	  <h3>Open the following (linked) KML file in Google Earth, uncompress it, and save the contained KML file on your computer. Open the KML file in a text editor.</h3>
+      		  <a href="http://rgis.unm.edu/gstore/datasets/3f0a85aa-b7f8-47bd-8db6-1c0e66becf72/nm_state_bdy_00.derived.kml"/>http://rgis.unm.edu/gstore/datasets/3f0a85aa-b7f8-47bd-8db6-1c0e66becf72/nm_state_bdy_00.derived.kml</a>
+      		<h3>Add a second Placemark element to the KML file that represents a square region that is completely contained within the state boundary. Save the KML file and open it in Google Earth or view it in Google Maps as demonstrated in the lecture to verify that you have successfully created the file. Submit the KML file (as a link in your writeup) as part of your writeup for the milestone.</h3>
+      	<h2>A:</h2>
+      	  <ul>
+      		  <li><a href="http://lpa2.github.io/GEOG485L/milestone_06.kml"/>http://lpa2.github.io/GEOG485L/milestone_06.kml</a></li>
+      			<li><a href="https://maps.google.com/maps?q=http://lpa2.github.io/GEOG485L/milestone_06.kml"/>Milestone 6 KML on Google Maps</a>
+      		</ul>
+<br>
+	<div class="pagination">
+	<div class="left">
+		<a class="plain" href="../GEOG485L/milestone_05.html">Previous Milestone</a>
+	</div>
+	<div class="right">
+		<a class="plain" href="../GEOG485L/milestone_07.html">Next Milestone</a>
+	</div>
+    </body>
+<br>
+<br>
 </html>

@@ -1,145 +1,141 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <head>
+	  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<title>Milestone 7</title>
-    <style type="text/css">
-        body { color: #FFFFFF;
-                background: #737373;
-                  margin-left:10%;
-                    margin-right: 10%;
-                      font-family: Helvetica, sans-serif; }
-          a:link { color: #9ECAE1 }
-            a:visited { color: #F7FBFF }
-              a:active { color: #DEEBF7 }
-                a:hover { color: #C6DBEF }
-                  a.plain { text-decoration: none; }
-      </style>
-	</head>
-	<p>
-    <br>
+    <link href="../GEOG485L/CSS/style.css" rel="stylesheet" type="text/css" media="screen">
+<script src="../GEOG485L/JavaScript/geog485_analytics.js" type="text/javascript">
+</script>
+  </head>
+    <body>
+  <p>
+<br>
     <a class="plain" href="http://lpa2.github.io/"/>Lawrence Alderete</a></br>
     <a class="plain" href="http://libguides.unm.edu/profile/kbene"/>Professor Benedict</a></br>
     <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
     <a class="plain" href="https://www.wolframalpha.com/input/?i=5+March+2014"/>05 March 2014</a> 
-	  </p>
+  </p>
 	  	<h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/milestones/milestones.html#week-7---wms-getmap-requests-map-scale-and-aspect-ratio-calculations"/>Milestone 7 (Interoperability Standards - WFS & WCS)</a></h1>
 	    	<h2>Q1:</h2>
-        		<h3>What is the aspect ratio of this geographic region?</h3>
-      		<h2>A:</h2>
-      			<p>image aspect ratio = (width) / (height) = (600) / (400) = 1.5</p>
-      		<h2>Q2:</h2>
-        		<h3>What would be the height (in whole pixels) for a map image for this region that is 600 pixels wide?</h3>
-			<h2>A:</h2>
-        		<p>image height = (width) / (aspect ratio) = (600) / (1.5) = 400px</p>
-        	<h2>Q3:</h2>
-        		<h3>Formulate a WMS request that reflects the values determined in 1.1 and 1.2 above for the WMS service used above in the examples. Include in your answer both the actual WMS request and the returned map image.</h3>
-        	<h2>A:</h2>
-        		<p><a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
-					"/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
-					VERSION=1.1.1&<br>
-					SERVICE=WMS&<br>
-					REQUEST=GetMap&<br>
-					BBOX=-109.5,34.5,-106.5,36.5&<br>
-					LAYERS=2007fe_35_county&<br>
-					FORMAT=image/png&<br>
-					TRANSPARENT=TRUE&<br>
-					STYLES=&<br>
-					SRS=EPSG:4326&<br>
-					WIDTH=600&<br>
-					HEIGHT=400</a>
-				</p>
-				<img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400">
-        		<br>
-        	<h2>Q4:</h2>
-        		<h3>Formulate a WMS request for a 900x600 pixel map image that represents the full 3-degree width of the geographic region, and is based upon the minimum Y value of 34.5 degrees North Latitude. Include in your answer both the WMS request and the returned map image.</h3>
-        	<h2>A:</h2>
-        		<p>image aspect ratio = (width) / (height) = (600) / (400) = 1.5<br>
-        		BBOX aspect ratio = (width) / (height) = (3) / (height in degrees) = 1.5<br>
-				BBOX height = (width) / (BBOX aspect ratio) = (3) / (1.5) = 2<br>
-        		BBOX Max Y = (BBOX Min Y) + (BBOX height) = (34.5) + (2) = 36.5<br>
-        		<p><a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=900&HEIGHT=600
-					"/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
-					VERSION=1.1.1&<br>
-					SERVICE=WMS&<br>
-					REQUEST=GetMap&<br>
-					BBOX=-109.5,34.5,-106.5,36.5&<br>
-					LAYERS=2007fe_35_county&<br>
-					FORMAT=image/png&<br>
-					TRANSPARENT=TRUE&<br>
-					STYLES=&<br>
-					SRS=EPSG:4326&<br>
-					WIDTH=900&<br>
-					HEIGHT=600</a>		
-        		</p>
-        		<img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=900&HEIGHT=600">
-        		<br>
-        	<h2>Q5:</h2>
-        		<h3>Given a WMS that is represented by the following GetCapabilities request, formulate individual GetMap requests using the following parameters:<br>
-        		<br>
-        			<ul>
-        				<li>BBOX=-106.639,35.074,-106.609,35.094</li>
-        				<li>WIDTH=600</li>
-        				<li>HEIGHT=400</li>
-        			</ul>
-        		<br>
+          <h3>What is the aspect ratio of this geographic region?</h3>
+      	<h2>A:</h2>
+      	  <p>image aspect ratio = (width) / (height) = (600) / (400) = 1.5</p>
+      	<h2>Q2:</h2>
+          <h3>What would be the height (in whole pixels) for a map image for this region that is 600 pixels wide?</h3>
+			  <h2>A:</h2>
+          <p>image height = (width) / (aspect ratio) = (600) / (1.5) = 400px</p>
+        <h2>Q3:</h2>
+          <h3>Formulate a WMS request that reflects the values determined in 1.1 and 1.2 above for the WMS service used above in the examples. Include in your answer both the actual WMS request and the returned map image.</h3>
+        <h2>A:</h2>
+          <p>
+            <a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
+					    "/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
+					    VERSION=1.1.1&<br>
+					    SERVICE=WMS&<br>
+					    REQUEST=GetMap&<br>
+					    BBOX=-109.5,34.5,-106.5,36.5&<br>
+					    LAYERS=2007fe_35_county&<br>
+					    FORMAT=image/png&<br>
+					    TRANSPARENT=TRUE&<br>
+					    STYLES=&<br>
+					    SRS=EPSG:4326&<br>
+					    WIDTH=600&<br>
+					    HEIGHT=400</a>
+				  </p>
+				    <img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400">
+<br>
+        <h2>Q4:</h2>
+          <h3>Formulate a WMS request for a 900x600 pixel map image that represents the full 3-degree width of the geographic region, and is based upon the minimum Y value of 34.5 degrees North Latitude. Include in your answer both the WMS request and the returned map image.</h3>
+        <h2>A:</h2>
+          <p>image aspect ratio = (width) / (height) = (600) / (400) = 1.5<br>
+        		 BBOX aspect ratio = (width) / (height) = (3) / (height in degrees) = 1.5<br>
+				     BBOX height = (width) / (BBOX aspect ratio) = (3) / (1.5) = 2<br>
+        		 BBOX Max Y = (BBOX Min Y) + (BBOX height) = (34.5) + (2) = 36.5<br>
+        	<p>
+            <a href="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=900&HEIGHT=600
+					  "/>http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?<br>
+					  VERSION=1.1.1&<br>
+					  SERVICE=WMS&<br>
+					  REQUEST=GetMap&<br>
+					  BBOX=-109.5,34.5,-106.5,36.5&<br>
+					  LAYERS=2007fe_35_county&<br>
+					  FORMAT=image/png&<br>
+					  TRANSPARENT=TRUE&<br>
+					  STYLES=&<br>
+					  SRS=EPSG:4326&<br>
+					  WIDTH=900&<br>
+					  HEIGHT=600</a>		
+        	</p>
+        	  <img src="http://gstore.unm.edu/apps/rgis/datasets/92403ebf-aec5-404b-ae8a-6db41f388737/services/ogc/wms?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-109.5,34.5,-106.5,36.5&LAYERS=2007fe_35_county&FORMAT=image/png&TRANSPARENT=TRUE&STYLES=&SRS=EPSG:4326&WIDTH=900&HEIGHT=600">
+<br>
+        <h2>Q5:</h2>
+          <h3>Given a WMS that is represented by the following GetCapabilities request, formulate individual GetMap requests using the following parameters:<br>
+<br>
+            <ul>
+        		  <li>BBOX=-106.639,35.074,-106.609,35.094</li>
+        			<li>WIDTH=600</li>
+        			<li>HEIGHT=400</li>
+        		</ul>
+<br>
         		for each of the following layers:<br>
-        		<br>
-        			<ul>
-        				<li>0 (TNM_Large_Scale_Imagery)</li>
-        				<li>1 (1_foot_imagery)</li>
-        			</ul>
-        		<br>
+<br>
+        		<ul>
+        		  <li>0 (TNM_Large_Scale_Imagery)</li>
+        			<li>1 (1_foot_imagery)</li>
+        		</ul>
+<br>
         		<a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/
-				MapServer/WMSServer?request=GetCapabilities&service=WMS"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/
-				MapServer/WMSServer?request=GetCapabilities&service=WMS</a></h3>
-			<h2>A:</h2>
-				<li>Layer "0"</li>
-				<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
-					"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
-					VERSION=1.1.1&<br>
-					SERVICE=WMS&<br>
-					REQUEST=GetMap&<br>
-					BBOX=-106.639,35.074,-106.609,35.094&<br>
-					LAYERS=0&<br>
-					FORMAT=image/png&<br>
-					STYLES=&<br>
-					SRS=EPSG:4326&<br>
-					WIDTH=600&<br>
-					HEIGHT=400</a>
-				</p>
-				<img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400">
-				<br>
-				<br>
-				<li>Layer "1"</li>
-				<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
-					">http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?
-					VERSION=1.1.1&<br>
-					SERVICE=WMS&<br>
-					REQUEST=GetMap&<br>
-					BBOX=-106.639,35.074,-106.609,35.094&<br>
-					LAYERS=1&<br>
-					FORMAT=image/png&<br>
-					STYLES=&<br>
-					SRS=EPSG:4326&<br>
-					WIDTH=600&<br>
-					HEIGHT=400</a>
-				</p>
-				[NO IMAGE WAS RETURNED]
-				<br>
-			<h2>Q6:</h2>
-				<h3>Which layers return map images that display image content (i.e. return a non-blank image)?</h3>
-			<h2>A:</h2>
-				<p>Layer "0" (TNM_Large_Scale_Imagery)</p>
-			<h2>Q7:</h2>
-				<h3>From examining the information for these layers in the GetCapabilities XML document - which element in each layer’s service metadata do you think provides information about the scales for which the layer will return map images containing data?</h3>
-			<h2>A:</h2>
-				<p>The "<code>MaxScaleDenominator</code>" tag appears to be the only tag that mentions scale.</p>
-			<h2>Q8:</h2>
-				<h3>Which map images contain data for each of the following map image widths (remember to adjust the image height to match the BBOX of the request)<br> 
+				    MapServer/WMSServer?request=GetCapabilities&service=WMS"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/
+				    MapServer/WMSServer?request=GetCapabilities&service=WMS</a></h3>
+			  <h2>A:</h2>
+				  <li>Layer "0"</li>
+				    <p>
+              <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
+					    "/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
+					    VERSION=1.1.1&<br>
+					    SERVICE=WMS&<br>
+					    REQUEST=GetMap&<br>
+					    BBOX=-106.639,35.074,-106.609,35.094&<br>
+					    LAYERS=0&<br>
+					    FORMAT=image/png&<br>
+					    STYLES=&<br>
+					    SRS=EPSG:4326&<br>
+					    WIDTH=600&<br>
+					    HEIGHT=400</a>
+				    </p>
+				      <img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400">
+<br>
+<br>
+				  <li>Layer "1"</li>
+				    <p>
+              <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=600&HEIGHT=400
+					    ">http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?
+					    VERSION=1.1.1&<br>
+					    SERVICE=WMS&<br>
+					    REQUEST=GetMap&<br>
+					    BBOX=-106.639,35.074,-106.609,35.094&<br>
+					    LAYERS=1&<br>
+					    FORMAT=image/png&<br>
+					    STYLES=&<br>
+					    SRS=EPSG:4326&<br>
+					    WIDTH=600&<br>
+					    HEIGHT=400</a>
+				    </p>
+				      [NO IMAGE WAS RETURNED]
+<br>
+			  <h2>Q6:</h2>
+				  <h3>Which layers return map images that display image content (i.e. return a non-blank image)?</h3>
+			  <h2>A:</h2>
+				  <p>Layer "0" (TNM_Large_Scale_Imagery)</p>
+			  <h2>Q7:</h2>
+				  <h3>From examining the information for these layers in the GetCapabilities XML document - which element in each layer’s service metadata do you think provides information about the scales for which the layer will return map images containing data?</h3>
+			  <h2>A:</h2>
+				  <p>The "<code>MaxScaleDenominator</code>" tag appears to be the only tag that mentions scale.</p>
+			  <h2>Q8:</h2>
+				  <h3>Which map images contain data for each of the following map image widths (remember to adjust the image height to match the BBOX of the request)<br> 
     				<ul>
-    					<li>30 pixels</li>
+    				  <li>30 pixels</li>
     					<li>1200 pixels</li>
     				</ul>
     			</h3>
@@ -147,81 +143,99 @@
     			<p>Results:</p>
     			<p>
     				<ul>
-    					<li>30 pixels</li>
-    						<p>image aspect ratio = (width) / (height) = (30) / (20) = 1.5</p>
-    							<p>image height = (width) / (aspect ratio) = (30) / (1.5) = 20px</p>
-    								<ul>
-    									<li>Layer "0" (30x20px)</li>
-    										<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20
-    										"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
-												VERSION=1.1.1&<br>
-												SERVICE=WMS&<br>
-												REQUEST=GetMap&<br>
-												BBOX=-106.639,35.074,-106.609,35.094&<br>
-												LAYERS=0&<br>
-												FORMAT=image/png&<br>
-												STYLES=&<br>
-												SRS=EPSG:4326&<br>
-												WIDTH=30&<br>
-												HEIGHT=20</a>
-											</p>
-											<img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20"><br>
-											<br>	
-    									<li>Layer "1" (30x20px)</li>
-    										<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20
-    										"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
-												VERSION=1.1.1&<br>
-												SERVICE=WMS&<br>
-												REQUEST=GetMap&<br>
-												BBOX=-106.639,35.074,-106.609,35.094&<br>
-												LAYERS=1&<br>
-												FORMAT=image/png&<br>
-												STYLES=&<br>
-												SRS=EPSG:4326&<br>
-												WIDTH=30&<br>
-												HEIGHT=20</a>
-											</p>
-											<img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20"><br>
-											<br>
-    								</ul>
-    					<li>1200 pixels</li>
-    						<p>image aspect ratio = (width) / (height) = (1200) / (800) = 1.5</p>
-    							<p>image height = (width) / (aspect ratio) = (1200) / (1.5) = 800px</p>
-    								<ul>
-    									<li>Layer "0" (1200x800px)</li>
-    										<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800
-    										"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
-												VERSION=1.1.1&<br>
-												SERVICE=WMS&<br>
-												REQUEST=GetMap&<br>
-												BBOX=-106.639,35.074,-106.609,35.094&<br>
-												LAYERS=0&<br>
-												FORMAT=image/png&<br>
-												STYLES=&<br>
-												SRS=EPSG:4326&<br>
-												WIDTH=1200&<br>
-												HEIGHT=800</a>
-											</p>
-											<img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800"><br>
-											<br>
-    									<li>Layer "1" (1200x800px)</li>
-    										<p><a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800
-    										"/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
-												VERSION=1.1.1&<br>
-												SERVICE=WMS&<br>
-												REQUEST=GetMap&<br>
-												BBOX=-106.639,35.074,-106.609,35.094&<br>
-												LAYERS=1&<br>
-												FORMAT=image/png&<br>
-												STYLES=&<br>
-												SRS=EPSG:4326&<br>
-												WIDTH=1200&<br>
-												HEIGHT=800</a>
-											</p>
-											<img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800"><br>
-											<br>
-    								</ul>
-    				</ul>
-	</body>
+              <li>30 pixels<br>
+                  image aspect ratio = (width) / (height) = (30) / (20) = 1.5<br>
+                  image height = (width) / (aspect ratio) = (30) / (1.5) = 20px<br>
+              </li>
+<br>
+    				<ul>
+    				  <li>Layer "0" (30x20px)</li>
+    					  <p>
+                  <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20
+    							  "/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
+										VERSION=1.1.1&<br>
+										SERVICE=WMS&<br>
+										REQUEST=GetMap&<br>
+										BBOX=-106.639,35.074,-106.609,35.094&<br>
+										LAYERS=0&<br>
+										FORMAT=image/png&<br>
+										STYLES=&<br>
+										SRS=EPSG:4326&<br>
+										WIDTH=30&<br>
+										HEIGHT=20</a>
+								</p>
+								  <img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20"><br>
+<br>	
+              <li>Layer "1" (30x20px)</li>
+    					  <p>
+                  <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20
+    							  "/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
+										VERSION=1.1.1&<br>
+										SERVICE=WMS&<br>
+										REQUEST=GetMap&<br>
+										BBOX=-106.639,35.074,-106.609,35.094&<br>
+										LAYERS=1&<br>
+										FORMAT=image/png&<br>
+										STYLES=&<br>
+										SRS=EPSG:4326&<br>
+										WIDTH=30&<br>
+										HEIGHT=20</a>
+								</p>
+								  <img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=30&HEIGHT=20"><br>
+<br>
+    			  </ul>
+              <li>1200 pixels<br>
+                  image aspect ratio = (width) / (height) = (1200) / (800) = 1.5<br>
+                  image height = (width) / (aspect ratio) = (1200) / (1.5) = 800px<br>
+              </li>
+<br>
+    				<ul>
+    				  <li>Layer "0" (1200x800px)</li>
+    					  <p>
+                  <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800
+    							  "/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
+										VERSION=1.1.1&<br>
+										SERVICE=WMS&<br>
+										REQUEST=GetMap&<br>
+										BBOX=-106.639,35.074,-106.609,35.094&<br>
+										LAYERS=0&<br>
+										FORMAT=image/png&<br>
+										STYLES=&<br>
+										SRS=EPSG:4326&<br>
+										WIDTH=1200&<br>
+										HEIGHT=800</a>
+								</p>
+								  <img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=0&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800"><br>
+<br>
+    					<li>Layer "1" (1200x800px)</li>
+    					  <p>
+                  <a href="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800
+    							  "/>http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?<br>
+										VERSION=1.1.1&<br>
+										SERVICE=WMS&<br>
+										REQUEST=GetMap&<br>
+										BBOX=-106.639,35.074,-106.609,35.094&<br>
+										LAYERS=1&<br>
+										FORMAT=image/png&<br>
+										STYLES=&<br>
+										SRS=EPSG:4326&<br>
+										WIDTH=1200&<br>
+										HEIGHT=800</a>
+								</p>
+								  <img src="http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer/WMSServer?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&BBOX=-106.639,35.074,-106.609,35.094&LAYERS=1&FORMAT=image/png&STYLES=&SRS=EPSG:4326&WIDTH=1200&HEIGHT=800"><br>
+    			  </ul>
+          </ul>
+<br>
+<br>
+<br>
+	<div class="pagination">
+	<div class="left">
+		<a class="plain" href="../GEOG485L/milestone_06.html">Previous Milestone</a>
+	</div>
+	<div class="right">
+		<a class="plain" href="../GEOG485L/milestone_08.html">Next Milestone</a>
+	</div>
+    </body>
+<br>
+<br>
 </html>
-
