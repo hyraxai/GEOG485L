@@ -1,0 +1,58 @@
+html {
+  height: 100% 
+}
+body {
+	  height: 100%;
+    color: #FFFFFF;
+    background: #737373;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Helvetica, sans-serif;
+    text-align: left
+}
+a:link {
+  color: #9ECAE1 
+}
+a:visited {
+  color: #F7FBFF 
+}
+a:active {
+  color: #DEEBF7 
+}
+a:hover {
+  color: #C6DBEF 
+}
+a.plain {
+  text-decoration: none; 
+}
+.pagination .left {
+  float: left;
+}
+.pagination .right {
+  float: right;
+}
+#milestone_03_map {
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto
+}
+#milestone_04_map {
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto
+}
+#milestone_08_map {
+  width: 100%;
+	height: 500px;
+	margin: 0 auto 
+}
+#deepdive_01_map {
+  width: 90%;
+  height:80%;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, sans-serif;
+}
