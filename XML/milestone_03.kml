@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Style id="red"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style><Style id="yellow"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style><Style id="green"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style><Folder><name>Wifi Networks</name>
+<Placemark>
+<name><![CDATA[HP-Print-35-Deskjet 3520 series]]></name>
+<description><![CDATA[BSSID: <b>2c:44:fd:6e:7b:35</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382628000</b><br/>Date: <b>2014-02-02 16:10:28</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54471142,35.31882593</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LPR_Guest]]></name>
+<description><![CDATA[BSSID: <b>2a:a4:3c:0b:02:dd</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382772000</b><br/>Date: <b>2014-02-02 16:12:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52300102,35.31550363</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>b8:9b:c9:77:4e:5b</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382843000</b><br/>Date: <b>2014-02-02 16:14:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50510954,35.31261064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>b8:9b:c9:77:4e:5a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382843000</b><br/>Date: <b>2014-02-02 16:14:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50510954,35.31261064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tommy2Net]]></name>
+<description><![CDATA[BSSID: <b>08:86:3b:15:af:a8</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391382778000</b><br/>Date: <b>2014-02-02 16:12:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52149655,35.31549232</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink4492]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:93:38:54</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383465000</b><br/>Date: <b>2014-02-02 16:24:25</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50103539,35.32013309</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1817]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:ce:47:84</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383078000</b><br/>Date: <b>2014-02-02 16:17:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4931423,35.30887775</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Isaacs_network]]></name>
+<description><![CDATA[BSSID: <b>00:22:75:6e:fe:96</b><br/>Capabilities: <b>[WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382800000</b><br/>Date: <b>2014-02-02 16:13:20</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51564731,35.3151543</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RoseTiger]]></name>
+<description><![CDATA[BSSID: <b>c0:c1:c0:64:7d:a2</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2417</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[OFFICE2RANCHOS]]></name>
+<description><![CDATA[BSSID: <b>00:0c:42:39:85:54</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>5825</b><br/>Timestamp: <b>0</b><br/>Date: <b>1969-12-31 17:00:00</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>Infinity,-Infinity</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 7]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b7:61</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LPR_Guest]]></name>
+<description><![CDATA[BSSID: <b>2a:a4:3c:0b:03:23</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382776000</b><br/>Date: <b>2014-02-02 16:12:56</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52201304,35.31550257</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 2]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b7:4b</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382025000</b><br/>Date: <b>2014-02-02 16:00:25</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54418809,35.31879064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>02:1d:d3:51:08:30</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383249000</b><br/>Date: <b>2014-02-02 16:20:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50359517,35.31285922</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink2040]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:15:d7:10</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382650000</b><br/>Date: <b>2014-02-02 16:10:50</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54208878,35.31775616</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Daniel_Tallon]]></name>
+<description><![CDATA[BSSID: <b>00:1a:70:67:6f:ef</b><br/>Capabilities: <b>[WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383215000</b><br/>Date: <b>2014-02-02 16:20:15</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49816198,35.31027148</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mesawireless]]></name>
+<description><![CDATA[BSSID: <b>00:24:b2:03:f1:9f</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391383313000</b><br/>Date: <b>2014-02-02 16:21:53</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.5032363,35.31824792</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[POD]]></name>
+<description><![CDATA[BSSID: <b>f8:66:f2:46:a2:43</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382648000</b><br/>Date: <b>2014-02-02 16:10:48</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54245933,35.31783149</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi ]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b7:c7</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382651000</b><br/>Date: <b>2014-02-02 16:10:51</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54189766,35.31772114</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>f8:66:f2:46:a2:41</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382652000</b><br/>Date: <b>2014-02-02 16:10:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54171991,35.31767003</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>f8:66:f2:46:a2:42</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381965000</b><br/>Date: <b>2014-02-02 15:59:25</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54395051,35.31863456</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest3672]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:de:c8:2b</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382807000</b><br/>Date: <b>2014-02-02 16:13:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51393071,35.31484964</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Yoana]]></name>
+<description><![CDATA[BSSID: <b>50:67:f0:ef:5b:b4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382644000</b><br/>Date: <b>2014-02-02 16:10:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54316443,35.31797932</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-430F]]></name>
+<description><![CDATA[BSSID: <b>cc:35:40:a4:43:0f</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382835000</b><br/>Date: <b>2014-02-02 16:13:55</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50712472,35.31288292</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b7:d3</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[buzz420]]></name>
+<description><![CDATA[BSSID: <b>00:24:37:8b:4d:10</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest5801]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:1c:8a:fc</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383269000</b><br/>Date: <b>2014-02-02 16:21:09</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50301371,35.31390372</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[OMSC]]></name>
+<description><![CDATA[BSSID: <b>20:c9:d0:1f:37:b9</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382649000</b><br/>Date: <b>2014-02-02 16:10:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54227663,35.3177932</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1938]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:9c:b4:a4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383293000</b><br/>Date: <b>2014-02-02 16:21:33</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50240607,35.31575794</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>f8:66:f2:46:a2:4d</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382651000</b><br/>Date: <b>2014-02-02 16:10:51</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54189766,35.31772114</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ACTIONTECKris]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:67:1b:6a</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382892000</b><br/>Date: <b>2014-02-02 16:14:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49427011,35.30836576</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[khalsa]]></name>
+<description><![CDATA[BSSID: <b>00:18:39:87:b9:34</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382661000</b><br/>Date: <b>2014-02-02 16:11:01</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53979491,35.31718357</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest8531]]></name>
+<description><![CDATA[BSSID: <b>50:67:f0:f0:1b:d3</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391382650000</b><br/>Date: <b>2014-02-02 16:10:50</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54208878,35.31775616</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>62:0e:8f:93:b7:61</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382570000</b><br/>Date: <b>2014-02-02 16:09:30</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54433544,35.31954517</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HighDesertMan]]></name>
+<description><![CDATA[BSSID: <b>b8:8d:12:62:42:fb</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383301000</b><br/>Date: <b>2014-02-02 16:21:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50308402,35.31641491</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[coolcat]]></name>
+<description><![CDATA[BSSID: <b>94:0c:6d:ac:1c:72</b><br/>Capabilities: <b>[WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382825000</b><br/>Date: <b>2014-02-02 16:13:45</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5095476,35.31360741</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[jan]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:c3:cc:fc</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382822000</b><br/>Date: <b>2014-02-02 16:13:42</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.51030285,35.31382497</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Anasazi Trails]]></name>
+<description><![CDATA[BSSID: <b>04:1e:64:fd:dc:15</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink4940]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:15:fc:2c</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381911000</b><br/>Date: <b>2014-02-02 15:58:31</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53509824,35.31653954</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink2483]]></name>
+<description><![CDATA[BSSID: <b>ce:5d:4e:f2:7f:84</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382805000</b><br/>Date: <b>2014-02-02 16:13:25</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51441399,35.31494977</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Actiontec]]></name>
+<description><![CDATA[BSSID: <b>00:26:b8:d4:61:3a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383260000</b><br/>Date: <b>2014-02-02 16:21:00</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50316236,35.31364279</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-DD-Officejet Pro 8600]]></name>
+<description><![CDATA[BSSID: <b>00:9c:02:ce:e1:dd</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382806000</b><br/>Date: <b>2014-02-02 16:13:26</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51417254,35.31490033</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ledbetter]]></name>
+<description><![CDATA[BSSID: <b>90:f6:52:71:a5:4f</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382807000</b><br/>Date: <b>2014-02-02 16:13:27</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51393071,35.31484964</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[9XDFF]]></name>
+<description><![CDATA[BSSID: <b>00:26:b8:7a:f2:c6</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383216000</b><br/>Date: <b>2014-02-02 16:20:16</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49837439,35.31036979</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>62:0e:8f:93:b7:4b</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382397000</b><br/>Date: <b>2014-02-02 16:06:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421057,35.31892202</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1133]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:c6:ea:04</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381959000</b><br/>Date: <b>2014-02-02 15:59:19</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54398695,35.31839861</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR86]]></name>
+<description><![CDATA[BSSID: <b>20:4e:7f:ba:c2:a7</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2447</b><br/>Timestamp: <b>1391382883000</b><br/>Date: <b>2014-02-02 16:14:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49594838,35.30912956</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TyMo's Network]]></name>
+<description><![CDATA[BSSID: <b>00:1c:b3:ae:82:64</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383223000</b><br/>Date: <b>2014-02-02 16:20:23</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49991495,35.31109817</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[linksys]]></name>
+<description><![CDATA[BSSID: <b>00:1c:10:ac:5d:eb</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[W.S_GUEST]]></name>
+<description><![CDATA[BSSID: <b>7e:4f:b5:b7:7d:76</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382800000</b><br/>Date: <b>2014-02-02 16:13:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51564731,35.3151543</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KFCG255012]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:13:89:b0</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382661000</b><br/>Date: <b>2014-02-02 16:11:01</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53979491,35.31718357</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:a0:f8:ad:fa:46</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382033000</b><br/>Date: <b>2014-02-02 16:00:33</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.54418099,35.31885027</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[jan_EXT]]></name>
+<description><![CDATA[BSSID: <b>44:94:fc:54:82:6c</b><br/>Capabilities: <b>[WPS][WEP][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382820000</b><br/>Date: <b>2014-02-02 16:13:40</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.51080327,35.31397692</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[jimmyz]]></name>
+<description><![CDATA[BSSID: <b>00:23:69:ba:d5:a9</b><br/>Capabilities: <b>[WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383202000</b><br/>Date: <b>2014-02-02 16:20:02</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.49552655,35.30899562</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-nomodel.60C631]]></name>
+<description><![CDATA[BSSID: <b>02:27:97:ec:41:eb</b><br/>Capabilities: <b>[IBSS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383229000</b><br/>Date: <b>2014-02-02 16:20:29</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50137483,35.31177209</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-1240]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:d7:12:40</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382780000</b><br/>Date: <b>2014-02-02 16:13:00</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52096722,35.31549153</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-7322]]></name>
+<description><![CDATA[BSSID: <b>cc:a4:62:1c:73:20</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391382818000</b><br/>Date: <b>2014-02-02 16:13:38</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51128411,35.31412723</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rihawayne]]></name>
+<description><![CDATA[BSSID: <b>00:1e:e5:26:09:af</b><br/>Capabilities: <b>[WPS][WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382876000</b><br/>Date: <b>2014-02-02 16:14:36</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.49746103,35.30988628</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[schuhler]]></name>
+<description><![CDATA[BSSID: <b>08:86:3b:d2:c4:98</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383240000</b><br/>Date: <b>2014-02-02 16:20:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50329942,35.31249393</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest9531]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:7c:6a:a8</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382651000</b><br/>Date: <b>2014-02-02 16:10:51</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54189766,35.31772114</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tenda_42F618]]></name>
+<description><![CDATA[BSSID: <b>c8:3a:35:42:f6:18</b><br/>Capabilities: <b>[WPA-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383078000</b><br/>Date: <b>2014-02-02 16:17:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4931423,35.30887775</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Michael Shinas's Network]]></name>
+<description><![CDATA[BSSID: <b>00:24:36:a6:bd:8f</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383203000</b><br/>Date: <b>2014-02-02 16:20:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49571981,35.30907514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[US550]]></name>
+<description><![CDATA[BSSID: <b>00:02:6f:e6:0a:80</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382723000</b><br/>Date: <b>2014-02-02 16:12:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53307044,35.31615176</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-7262]]></name>
+<description><![CDATA[BSSID: <b>d8:eb:97:a3:db:de</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382819000</b><br/>Date: <b>2014-02-02 16:13:39</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51104079,35.31405305</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink2285]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:17:9e:f0</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382650000</b><br/>Date: <b>2014-02-02 16:10:50</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54208878,35.31775616</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Alderete Trust_sec]]></name>
+<description><![CDATA[BSSID: <b>00:22:75:d5:8d:a0</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383349000</b><br/>Date: <b>2014-02-02 16:22:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50165855,35.32034588</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Alderete Trust_guest]]></name>
+<description><![CDATA[BSSID: <b>00:22:75:d5:8d:a1</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383349000</b><br/>Date: <b>2014-02-02 16:22:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50165855,35.32034588</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382046000</b><br/>Date: <b>2014-02-02 16:00:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421068,35.31891856</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_40702_33272</b><br/>Capabilities: <b>EDGE;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391382894000</b><br/>Date: <b>2014-02-02 16:14:54</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.49407417,35.30827114</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9b</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9a</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9f</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:9e</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e4</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382046000</b><br/>Date: <b>2014-02-02 16:00:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421068,35.31891856</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e5</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e0</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382058000</b><br/>Date: <b>2014-02-02 16:00:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5442123,35.31892002</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e1</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e2</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382055000</b><br/>Date: <b>2014-02-02 16:00:55</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421227,35.31892011</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:91:88:e3</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-7262]]></name>
+<description><![CDATA[BSSID: <b>5c:57:1a:9b:72:60</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382822000</b><br/>Date: <b>2014-02-02 16:13:42</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51030285,35.31382497</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[adamstp]]></name>
+<description><![CDATA[BSSID: <b>ee:43:f6:35:24:78</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RoseTiger-guest]]></name>
+<description><![CDATA[BSSID: <b>c6:c1:c0:64:7d:a2</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2417</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-26-Photosmart 7520]]></name>
+<description><![CDATA[BSSID: <b>38:ea:a7:53:fa:26</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383290000</b><br/>Date: <b>2014-02-02 16:21:30</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50220296,35.31559722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink0133]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:87:32:54</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RidgeOne]]></name>
+<description><![CDATA[BSSID: <b>20:4e:7f:85:68:86</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391383252000</b><br/>Date: <b>2014-02-02 16:20:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50349133,35.31308491</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tengointernet]]></name>
+<description><![CDATA[BSSID: <b>00:03:52:34:c8:00</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2452</b><br/>Timestamp: <b>1391382816000</b><br/>Date: <b>2014-02-02 16:13:36</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51176031,35.3142708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RRwirelessnetwork]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:bb:c0:a4</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2452</b><br/>Timestamp: <b>1391382803000</b><br/>Date: <b>2014-02-02 16:13:23</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51489983,35.31503014</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KOA Bernalillo Cabins Access]]></name>
+<description><![CDATA[BSSID: <b>dc:9f:db:0c:2f:eb</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382729000</b><br/>Date: <b>2014-02-02 16:12:09</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53199,35.31597895</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tengointernet]]></name>
+<description><![CDATA[BSSID: <b>00:03:52:da:47:10</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382815000</b><br/>Date: <b>2014-02-02 16:13:35</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51199831,35.31434269</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR54]]></name>
+<description><![CDATA[BSSID: <b>28:c6:8e:73:61:e7</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391382825000</b><br/>Date: <b>2014-02-02 16:13:45</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5095476,35.31360741</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-8680]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:ee:86:80</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383240000</b><br/>Date: <b>2014-02-02 16:20:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50329942,35.31249393</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28803486</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383392000</b><br/>Date: <b>2014-02-02 16:23:12</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50102681,35.32013344</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-F3C2]]></name>
+<description><![CDATA[BSSID: <b>00:1d:cf:3b:f3:c0</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382772000</b><br/>Date: <b>2014-02-02 16:12:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52300102,35.31550363</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME - Telephony Modem]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:e3:1d:28</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383308000</b><br/>Date: <b>2014-02-02 16:21:48</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50316878,35.31745877</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Holiday Inn Express On-WiFi 2]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:d5:63:8f</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382570000</b><br/>Date: <b>2014-02-02 16:09:30</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54433544,35.31954517</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TVNET]]></name>
+<description><![CDATA[BSSID: <b>4c:60:de:e6:0a:21</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2417</b><br/>Timestamp: <b>1391383255000</b><br/>Date: <b>2014-02-02 16:20:55</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5033684,35.31333035</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FNF1513]]></name>
+<description><![CDATA[BSSID: <b>00:30:44:09:f9:98</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391382680000</b><br/>Date: <b>2014-02-02 16:11:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53627681,35.31650342</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>52:57:1a:9b:72:60</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382820000</b><br/>Date: <b>2014-02-02 16:13:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51080327,35.31397692</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ngHub_319436N40509B]]></name>
+<description><![CDATA[BSSID: <b>28:c6:8e:cf:22:84</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382778000</b><br/>Date: <b>2014-02-02 16:12:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52149655,35.31549232</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bessinger]]></name>
+<description><![CDATA[BSSID: <b>ec:43:f6:1d:8b:1d</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382812000</b><br/>Date: <b>2014-02-02 16:13:32</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51272999,35.31455088</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi ]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b7:a1</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381965000</b><br/>Date: <b>2014-02-02 15:59:25</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54395051,35.31863456</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-BA-Officejet Pro 8600]]></name>
+<description><![CDATA[BSSID: <b>28:92:4a:bb:1d:ba</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS][P2P]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382802000</b><br/>Date: <b>2014-02-02 16:13:22</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51514494,35.31507555</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:3a:98:d8:5c:92</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382644000</b><br/>Date: <b>2014-02-02 16:10:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54316443,35.31797932</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[POD]]></name>
+<description><![CDATA[BSSID: <b>00:3a:98:d8:5c:93</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382646000</b><br/>Date: <b>2014-02-02 16:10:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54281552,35.31790702</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR]]></name>
+<description><![CDATA[BSSID: <b>00:14:6c:97:46:ea</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382807000</b><br/>Date: <b>2014-02-02 16:13:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51393071,35.31484964</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-6661]]></name>
+<description><![CDATA[BSSID: <b>cc:35:40:54:66:61</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383300000</b><br/>Date: <b>2014-02-02 16:21:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50299819,35.31630672</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-nomodel.54951C]]></name>
+<description><![CDATA[BSSID: <b>02:2a:7a:3a:18:39</b><br/>Capabilities: <b>[IBSS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382647000</b><br/>Date: <b>2014-02-02 16:10:47</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54263835,35.31786826</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CHRISTINE]]></name>
+<description><![CDATA[BSSID: <b>10:0d:7f:87:d3:a5</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2447</b><br/>Timestamp: <b>1391382825000</b><br/>Date: <b>2014-02-02 16:13:45</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5095476,35.31360741</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:05:9e:92:28:61</b><br/>Capabilities: <b>[WPA-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381950000</b><br/>Date: <b>2014-02-02 15:59:10</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54288765,35.31804809</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HELDT]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:25:cc:54</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382790000</b><br/>Date: <b>2014-02-02 16:13:10</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51827854,35.31544821</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-1E18]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:ee:1e:18</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383257000</b><br/>Date: <b>2014-02-02 16:20:57</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50327505,35.31345481</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:90</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:95</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:92</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382034000</b><br/>Date: <b>2014-02-02 16:00:34</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5441824,35.31885641</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:91</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382034000</b><br/>Date: <b>2014-02-02 16:00:34</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5441824,35.31885641</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:94</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[stephen vaughan's Network]]></name>
+<description><![CDATA[BSSID: <b>b8:c7:5d:08:58:bf</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383294000</b><br/>Date: <b>2014-02-02 16:21:34</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50248676,35.31581834</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:e3:93</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382067000</b><br/>Date: <b>2014-02-02 16:01:07</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421226,35.31891999</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-88-Officejet Pro 8600]]></name>
+<description><![CDATA[BSSID: <b>b4:b5:2f:13:5a:88</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS][P2P]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383301000</b><br/>Date: <b>2014-02-02 16:21:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50308402,35.31641491</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-8f-LaserJet 200]]></name>
+<description><![CDATA[BSSID: <b>0c:84:dc:a4:9a:8f</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS][P2P]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382844000</b><br/>Date: <b>2014-02-02 16:14:04</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5048614,35.31258861</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[heuer]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:da:4b:14</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382931000</b><br/>Date: <b>2014-02-02 16:15:31</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49346553,35.30865489</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>b8:9b:c9:77:4e:59</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382843000</b><br/>Date: <b>2014-02-02 16:14:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50510954,35.31261064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.b8c.guests]]></name>
+<description><![CDATA[BSSID: <b>ee:1a:59:45:db:8d</b><br/>Capabilities: <b>[WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383309000</b><br/>Date: <b>2014-02-02 16:21:49</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50314637,35.31762125</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-4E58]]></name>
+<description><![CDATA[BSSID: <b>b8:9b:c9:77:4e:58</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382843000</b><br/>Date: <b>2014-02-02 16:14:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50510954,35.31261064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest4285]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:2c:50:de</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383198000</b><br/>Date: <b>2014-02-02 16:19:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4948509,35.30872237</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-0832]]></name>
+<description><![CDATA[BSSID: <b>00:1d:d3:51:08:30</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383232000</b><br/>Date: <b>2014-02-02 16:20:32</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50199839,35.31207497</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Homesweethome]]></name>
+<description><![CDATA[BSSID: <b>fe:f5:28:98:cc:f4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382848000</b><br/>Date: <b>2014-02-02 16:14:08</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50386741,35.31248911</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tenda_5_42F61C]]></name>
+<description><![CDATA[BSSID: <b>c8:3a:35:42:f6:1c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5200</b><br/>Timestamp: <b>1391383078000</b><br/>Date: <b>2014-02-02 16:17:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4931423,35.30887775</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink_guest]]></name>
+<description><![CDATA[BSSID: <b>06:18:e7:e5:7f:1a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391383192000</b><br/>Date: <b>2014-02-02 16:19:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.494184,35.30837287</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[thevisionstore]]></name>
+<description><![CDATA[BSSID: <b>c0:3f:0e:b9:f2:ba</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382644000</b><br/>Date: <b>2014-02-02 16:10:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54316443,35.31797932</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b7:61</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1888]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:dc:c8:64</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382648000</b><br/>Date: <b>2014-02-02 16:10:48</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54245933,35.31783149</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Merc_Deli]]></name>
+<description><![CDATA[BSSID: <b>00:02:6f:24:21:1b</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2452</b><br/>Timestamp: <b>1391383192000</b><br/>Date: <b>2014-02-02 16:19:52</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.494184,35.30837287</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:ea</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382046000</b><br/>Date: <b>2014-02-02 16:00:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421068,35.31891856</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:ec</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:eb</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Toby]]></name>
+<description><![CDATA[BSSID: <b>20:4e:7f:b6:1c:5f</b><br/>Capabilities: <b>[WPS][WEP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383223000</b><br/>Date: <b>2014-02-02 16:20:23</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.49991495,35.31109817</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:ed</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6b</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:ee</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6e</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:ef</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382058000</b><br/>Date: <b>2014-02-02 16:00:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5442123,35.31892002</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest7561]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:27:c9:ca</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382816000</b><br/>Date: <b>2014-02-02 16:13:36</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51176031,35.3142708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-F067]]></name>
+<description><![CDATA[BSSID: <b>cc:35:40:97:f0:67</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382823000</b><br/>Date: <b>2014-02-02 16:13:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51005366,35.31375437</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6f</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:6a</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>5805</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1125]]></name>
+<description><![CDATA[BSSID: <b>20:76:00:72:2c:a0</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383274000</b><br/>Date: <b>2014-02-02 16:21:14</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50283583,35.31424051</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e5</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e4</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Holida Inn Express On-WiFi 6]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:d5:65:65</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382028000</b><br/>Date: <b>2014-02-02 16:00:28</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54418428,35.31879255</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DCHPC]]></name>
+<description><![CDATA[BSSID: <b>00:21:91:dc:1e:67</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391383199000</b><br/>Date: <b>2014-02-02 16:19:59</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49499619,35.30879882</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Azulstar-FT]]></name>
+<description><![CDATA[BSSID: <b>02:0e:d2:b8:7a:32</b><br/>Capabilities: <b>[IBSS]</b><br/>Frequency: <b>5240</b><br/>Timestamp: <b>1391382742000</b><br/>Date: <b>2014-02-02 16:12:22</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.52925767,35.31561821</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ralph Bonner's Network]]></name>
+<description><![CDATA[BSSID: <b>28:cf:e9:86:a3:c2</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383327000</b><br/>Date: <b>2014-02-02 16:22:07</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50228319,35.31930818</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>62:0e:8f:d5:65:65</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382028000</b><br/>Date: <b>2014-02-02 16:00:28</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418428,35.31879255</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ralph Bonner's Guest Network]]></name>
+<description><![CDATA[BSSID: <b>66:33:4b:e3:08:2d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b7:4b</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382025000</b><br/>Date: <b>2014-02-02 16:00:25</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54418809,35.31879064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:93:b8:13</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NMDOT550]]></name>
+<description><![CDATA[BSSID: <b>00:20:a6:5b:89:c1</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382584000</b><br/>Date: <b>2014-02-02 16:09:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54468841,35.31892364</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.4d7]]></name>
+<description><![CDATA[BSSID: <b>08:86:3b:40:04:d7</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383285000</b><br/>Date: <b>2014-02-02 16:21:25</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.502281,35.31524137</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-roku-646]]></name>
+<description><![CDATA[BSSID: <b>b8:3e:59:85:46:59</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS][P2P]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383237000</b><br/>Date: <b>2014-02-02 16:20:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50282476,35.31238297</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:62</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:63</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382046000</b><br/>Date: <b>2014-02-02 16:00:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421068,35.31891856</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:64</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SkyNet2]]></name>
+<description><![CDATA[BSSID: <b>60:a4:4c:f2:ea:00</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383315000</b><br/>Date: <b>2014-02-02 16:21:55</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50323198,35.31852501</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:65</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382046000</b><br/>Date: <b>2014-02-02 16:00:46</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421068,35.31891856</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[threebears]]></name>
+<description><![CDATA[BSSID: <b>48:f8:b3:98:6e:97</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2432</b><br/>Timestamp: <b>1391382795000</b><br/>Date: <b>2014-02-02 16:13:15</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51694565,35.31532067</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:60</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382049000</b><br/>Date: <b>2014-02-02 16:00:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54421164,35.31892006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:ce:61</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ronracer]]></name>
+<description><![CDATA[BSSID: <b>20:4e:7f:38:37:1c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2417</b><br/>Timestamp: <b>1391382816000</b><br/>Date: <b>2014-02-02 16:13:36</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51176031,35.3142708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hawking_300N_Extender]]></name>
+<description><![CDATA[BSSID: <b>00:0e:3b:20:57:60</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383229000</b><br/>Date: <b>2014-02-02 16:20:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50137483,35.31177209</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_40702_11371</b><br/>Capabilities: <b>EDGE;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383420000</b><br/>Date: <b>2014-02-02 16:23:40</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50103148,35.32013438</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ralph Bonner's Network]]></name>
+<description><![CDATA[BSSID: <b>60:33:4b:e3:08:2d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[iHub_0060350580e4]]></name>
+<description><![CDATA[BSSID: <b>00:0e:8f:88:3f:4e</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382584000</b><br/>Date: <b>2014-02-02 16:09:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54468841,35.31892364</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_40702_11373</b><br/>Capabilities: <b>EDGE;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383444000</b><br/>Date: <b>2014-02-02 16:24:04</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50103218,35.32013374</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Dianes Time Capsule]]></name>
+<description><![CDATA[BSSID: <b>00:1e:c2:f6:1a:a1</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Dianes Time Capsule]]></name>
+<description><![CDATA[BSSID: <b>00:1e:c2:f6:1a:a2</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>5745</b><br/>Timestamp: <b>1391383322000</b><br/>Date: <b>2014-02-02 16:22:02</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50276584,35.31914153</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[daniel's Wi-Fi Network]]></name>
+<description><![CDATA[BSSID: <b>90:72:40:1e:42:1c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383283000</b><br/>Date: <b>2014-02-02 16:21:23</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50237077,35.31506762</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>02:1d:cf:3b:f3:c0</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381863000</b><br/>Date: <b>2014-02-02 15:57:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52502106,35.3155504</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR87_2GEXT]]></name>
+<description><![CDATA[BSSID: <b>9c:d3:6d:99:01:9f</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382819000</b><br/>Date: <b>2014-02-02 16:13:39</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51104079,35.31405305</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[139115]]></name>
+<description><![CDATA[BSSID: <b>00:22:3f:a8:dc:e2</b><br/>Capabilities: <b>[WPS][WEP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382822000</b><br/>Date: <b>2014-02-02 16:13:42</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.51030285,35.31382497</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Merc BH]]></name>
+<description><![CDATA[BSSID: <b>00:0c:42:2c:5d:be</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391383078000</b><br/>Date: <b>2014-02-02 16:17:58</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.4931423,35.30887775</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-E7A2]]></name>
+<description><![CDATA[BSSID: <b>0c:f8:93:21:e7:a0</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383303000</b><br/>Date: <b>2014-02-02 16:21:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50324181,35.31666656</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest6529]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:01:ee:42</b><br/>Capabilities: <b>[WPS][WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382805000</b><br/>Date: <b>2014-02-02 16:13:25</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.51441399,35.31494977</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[JMGuest]]></name>
+<description><![CDATA[BSSID: <b>00:02:6f:b1:a8:d5</b><br/>Capabilities: <b>[WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383327000</b><br/>Date: <b>2014-02-02 16:22:07</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50228319,35.31930818</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-CE88]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:d7:ce:88</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383284000</b><br/>Date: <b>2014-02-02 16:21:24</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50232419,35.31515426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[jons dlink]]></name>
+<description><![CDATA[BSSID: <b>00:18:e7:e5:7f:1a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391383192000</b><br/>Date: <b>2014-02-02 16:19:52</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.494184,35.30837287</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Anasazi Trails Guests]]></name>
+<description><![CDATA[BSSID: <b>3a:cf:e9:87:1a:fc</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383507000</b><br/>Date: <b>2014-02-02 16:25:07</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50107224999999,35.32006974</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[GoldMaple]]></name>
+<description><![CDATA[BSSID: <b>98:fc:11:41:f5:ae</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383245000</b><br/>Date: <b>2014-02-02 16:20:45</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50366137,35.31262752</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest0543]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:f7:cc:24</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383277000</b><br/>Date: <b>2014-02-02 16:21:17</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50268348,35.31452156</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest5901]]></name>
+<description><![CDATA[BSSID: <b>50:67:f0:f0:83:61</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391383198000</b><br/>Date: <b>2014-02-02 16:19:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4948509,35.30872237</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1284]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:9c:8b:c4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382653000</b><br/>Date: <b>2014-02-02 16:10:53</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54151382,35.31763771</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:05:5d:ed:7c:01</b><br/>Capabilities: <b></b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382737000</b><br/>Date: <b>2014-02-02 16:12:17</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.53034697,35.31574993</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Carlos's Guest Network]]></name>
+<description><![CDATA[BSSID: <b>ea:8d:28:61:cd:50</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383248000</b><br/>Date: <b>2014-02-02 16:20:48</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50362554,35.31279264</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Sandra]]></name>
+<description><![CDATA[BSSID: <b>00:22:75:61:a8:9c</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382801000</b><br/>Date: <b>2014-02-02 16:13:21</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.51539426,35.31511445</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:14:38:5e</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383314000</b><br/>Date: <b>2014-02-02 16:21:54</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50324711,35.31839503</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[attwifi]]></name>
+<description><![CDATA[BSSID: <b>00:21:d8:df:60:e0</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382653000</b><br/>Date: <b>2014-02-02 16:10:53</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54151382,35.31763771</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:21:d8:df:60:e1</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382653000</b><br/>Date: <b>2014-02-02 16:10:53</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54151382,35.31763771</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR5]]></name>
+<description><![CDATA[BSSID: <b>00:24:b2:db:9c:58</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383363000</b><br/>Date: <b>2014-02-02 16:22:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50113814,35.32030326</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 3]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b8:13</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382025000</b><br/>Date: <b>2014-02-02 16:00:25</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54418809,35.31879064</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:00:00:00:00:00</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rocky]]></name>
+<description><![CDATA[BSSID: <b>00:26:b8:d4:a8:e9</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383225000</b><br/>Date: <b>2014-02-02 16:20:25</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50039913,35.3113233</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28781591</b><br/>Capabilities: <b>UNKNOWN;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391381945000</b><br/>Date: <b>2014-02-02 15:59:05</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54197372,35.31787303</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-976E]]></name>
+<description><![CDATA[BSSID: <b>c4:27:95:39:97:6e</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383240000</b><br/>Date: <b>2014-02-02 16:20:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50329942,35.31249393</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e1</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382033000</b><br/>Date: <b>2014-02-02 16:00:33</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418099,35.31885027</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e0</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382002000</b><br/>Date: <b>2014-02-02 16:00:02</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417924,35.31878663</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e3</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28781065</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383281000</b><br/>Date: <b>2014-02-02 16:21:21</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50247113,35.31488792</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:22:e2</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382033000</b><br/>Date: <b>2014-02-02 16:00:33</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418099,35.31885027</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DPP]]></name>
+<description><![CDATA[BSSID: <b>00:11:50:67:7a:24</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382652000</b><br/>Date: <b>2014-02-02 16:10:52</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.54171991,35.31767003</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.15a.media]]></name>
+<description><![CDATA[BSSID: <b>b4:75:0e:05:81:5c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>5180</b><br/>Timestamp: <b>1391382579000</b><br/>Date: <b>2014-02-02 16:09:39</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54461959,35.31924287</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[jashome]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:df:3f:60</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382683000</b><br/>Date: <b>2014-02-02 16:11:23</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53585452,35.31645293</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:db:ff:c4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383340000</b><br/>Date: <b>2014-02-02 16:22:20</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50138297,35.31969311</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ativa54g]]></name>
+<description><![CDATA[BSSID: <b>00:17:3f:6d:39:b5</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2432</b><br/>Timestamp: <b>1391383130000</b><br/>Date: <b>2014-02-02 16:18:50</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.4932003,35.30887674</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[linksys]]></name>
+<description><![CDATA[BSSID: <b>00:0f:66:32:46:6c</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383287000</b><br/>Date: <b>2014-02-02 16:21:27</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50219723,35.31539277</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ristra Consulting-guest]]></name>
+<description><![CDATA[BSSID: <b>5e:6d:8f:f9:53:62</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2427</b><br/>Timestamp: <b>1391383308000</b><br/>Date: <b>2014-02-02 16:21:48</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50316878,35.31745877</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest4814]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:dd:b6:3f</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383229000</b><br/>Date: <b>2014-02-02 16:20:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50137483,35.31177209</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28803576</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383349000</b><br/>Date: <b>2014-02-02 16:22:29</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50165855,35.32034588</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28803579</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391383259000</b><br/>Date: <b>2014-02-02 16:20:59</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50319945,35.31358241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:65</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381990000</b><br/>Date: <b>2014-02-02 15:59:50</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417788,35.31878544</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:61</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382029000</b><br/>Date: <b>2014-02-02 16:00:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418159,35.31880019</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:62</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:63</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:64</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:c4:d5:60</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>b4:c7:99:ad:46:21</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382579000</b><br/>Date: <b>2014-02-02 16:09:39</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54461959,35.31924287</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6b</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6a</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest8171]]></name>
+<description><![CDATA[BSSID: <b>40:4a:03:f1:19:5a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382555000</b><br/>Date: <b>2014-02-02 16:09:15</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54433134,35.31911702</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382037000</b><br/>Date: <b>2014-02-02 16:00:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419123,35.31887523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6f</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382029000</b><br/>Date: <b>2014-02-02 16:00:29</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418159,35.31880019</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:6e</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>5785</b><br/>Timestamp: <b>1391382041000</b><br/>Date: <b>2014-02-02 16:00:41</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54420493,35.31889913</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KOA Bernalillo Access 1]]></name>
+<description><![CDATA[BSSID: <b>00:20:a6:63:36:f0</b><br/>Capabilities: <b>[WPA2-PSK-CCMP-preauth][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382725000</b><br/>Date: <b>2014-02-02 16:12:05</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53274021,35.31610408</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[PlacitasTrails]]></name>
+<description><![CDATA[BSSID: <b>b8:62:1f:51:de:81</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383274000</b><br/>Date: <b>2014-02-02 16:21:14</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50283583,35.31424051</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Heath101]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:aa:69:52</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383299000</b><br/>Date: <b>2014-02-02 16:21:39</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50291208,35.31620252</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR1]]></name>
+<description><![CDATA[BSSID: <b>00:22:3f:12:6a:1a</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382846000</b><br/>Date: <b>2014-02-02 16:14:06</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.50436401,35.31253148</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Belkin.5846]]></name>
+<description><![CDATA[BSSID: <b>94:44:52:5e:88:46</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382788000</b><br/>Date: <b>2014-02-02 16:13:08</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51882022,35.31548291</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LPR]]></name>
+<description><![CDATA[BSSID: <b>2e:a4:3c:0b:02:dd</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382776000</b><br/>Date: <b>2014-02-02 16:12:56</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52201304,35.31550257</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[JULIE-WIRELESS]]></name>
+<description><![CDATA[BSSID: <b>c0:c1:c0:eb:8a:77</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381943000</b><br/>Date: <b>2014-02-02 15:59:03</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54157799,35.31778357</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SIDEL]]></name>
+<description><![CDATA[BSSID: <b>20:aa:4b:0b:c0:7f</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383237000</b><br/>Date: <b>2014-02-02 16:20:37</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50282476,35.31238297</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-5E90]]></name>
+<description><![CDATA[BSSID: <b>44:32:c8:ee:5e:90</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381953000</b><br/>Date: <b>2014-02-02 15:59:13</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54339536,35.3181761</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-ec-LaserJet 300]]></name>
+<description><![CDATA[BSSID: <b>e0:06:e6:1a:00:ec</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383321000</b><br/>Date: <b>2014-02-02 16:22:01</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50283711,35.31907685</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Norton]]></name>
+<description><![CDATA[BSSID: <b>00:1e:2a:d9:fe:36</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382808000</b><br/>Date: <b>2014-02-02 16:13:28</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51369606,35.31479749</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[MooMoo]]></name>
+<description><![CDATA[BSSID: <b>00:1e:e5:26:20:dd</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383327000</b><br/>Date: <b>2014-02-02 16:22:07</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.50228319,35.31930818</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Welpc]]></name>
+<description><![CDATA[BSSID: <b>ec:1a:59:7f:b2:0c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2452</b><br/>Timestamp: <b>1391382864000</b><br/>Date: <b>2014-02-02 16:14:24</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50016281,35.31115788</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Babylon-BGN]]></name>
+<description><![CDATA[BSSID: <b>04:a1:51:d3:94:d3</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382818000</b><br/>Date: <b>2014-02-02 16:13:38</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51128411,35.31412723</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LPR]]></name>
+<description><![CDATA[BSSID: <b>2e:a4:3c:0b:03:23</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382780000</b><br/>Date: <b>2014-02-02 16:13:00</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.52096722,35.31549153</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP00C341]]></name>
+<description><![CDATA[BSSID: <b>02:21:71:af:bc:aa</b><br/>Capabilities: <b>[IBSS]</b><br/>Frequency: <b>2457</b><br/>Timestamp: <b>1391382776000</b><br/>Date: <b>2014-02-02 16:12:56</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.52201304,35.31550257</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.20c.guests]]></name>
+<description><![CDATA[BSSID: <b>ec:1a:59:7f:b2:0f</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2452</b><br/>Timestamp: <b>1391382866000</b><br/>Date: <b>2014-02-02 16:14:26</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.49970539,35.31093228</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SIDEL-guest]]></name>
+<description><![CDATA[BSSID: <b>20:aa:4b:0b:c0:80</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383240000</b><br/>Date: <b>2014-02-02 16:20:40</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50329942,35.31249393</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[manzano]]></name>
+<description><![CDATA[BSSID: <b>4c:60:de:df:e0:37</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2417</b><br/>Timestamp: <b>1391382669000</b><br/>Date: <b>2014-02-02 16:11:09</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53825379,35.31683409</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[myqwest4065]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:15:ba:c2</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383276000</b><br/>Date: <b>2014-02-02 16:21:16</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50274085,35.31442443</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[11741Creek12248]]></name>
+<description><![CDATA[BSSID: <b>e0:91:f5:79:40:f2</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391382958000</b><br/>Date: <b>2014-02-02 16:15:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4932605,35.30877069</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rod]]></name>
+<description><![CDATA[BSSID: <b>08:86:3b:63:d7:80</b><br/>Capabilities: <b>[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383215000</b><br/>Date: <b>2014-02-02 16:20:15</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49816198,35.31027148</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink0968]]></name>
+<description><![CDATA[BSSID: <b>b2:b2:dc:19:a0:98</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2422</b><br/>Timestamp: <b>1391382669000</b><br/>Date: <b>2014-02-02 16:11:09</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.53825379,35.31683409</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Michael Shinas's Guest Network]]></name>
+<description><![CDATA[BSSID: <b>06:24:36:a6:bd:8f</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383198000</b><br/>Date: <b>2014-02-02 16:19:58</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.4948509,35.30872237</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>c2:a4:62:1c:73:20</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391382820000</b><br/>Date: <b>2014-02-02 16:13:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51080327,35.31397692</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Placitas Cafe LLC]]></name>
+<description><![CDATA[BSSID: <b>00:14:d1:32:bf:11</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383078000</b><br/>Date: <b>2014-02-02 16:17:58</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.4931423,35.30887775</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>62:0e:8f:93:b7:a1</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381990000</b><br/>Date: <b>2014-02-02 15:59:50</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417788,35.31878544</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>78:cd:8e:26:6f:7a</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 6]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b7:a1</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381965000</b><br/>Date: <b>2014-02-02 15:59:25</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54395051,35.31863456</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>78:cd:8e:26:6f:7b</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383222000</b><br/>Date: <b>2014-02-02 16:20:22</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49969949,35.3109757</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orona]]></name>
+<description><![CDATA[BSSID: <b>68:7f:74:29:c9:f9</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sage]]></name>
+<description><![CDATA[BSSID: <b>00:24:7b:28:55:68</b><br/>Capabilities: <b>[WPA-PSK-TKIP][WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382784000</b><br/>Date: <b>2014-02-02 16:13:04</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.5199018,35.31546454</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[XMJXD]]></name>
+<description><![CDATA[BSSID: <b>00:26:b8:75:c9:32</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382790000</b><br/>Date: <b>2014-02-02 16:13:10</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.51827854,35.31544821</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[linksys]]></name>
+<description><![CDATA[BSSID: <b>00:22:6b:76:e4:bb</b><br/>Capabilities: <b>[WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383288000</b><br/>Date: <b>2014-02-02 16:21:28</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50217127,35.31546678</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[threebears-guest]]></name>
+<description><![CDATA[BSSID: <b>4a:f8:b3:98:6e:98</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2432</b><br/>Timestamp: <b>1391382797000</b><br/>Date: <b>2014-02-02 16:13:17</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51641165,35.31526768</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink1327]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:9c:8e:74</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381962000</b><br/>Date: <b>2014-02-02 15:59:22</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54397086,35.3185168</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Super 8]]></name>
+<description><![CDATA[BSSID: <b>00:19:cb:44:e1:bc</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382661000</b><br/>Date: <b>2014-02-02 16:11:01</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.53979491,35.31718357</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-6F78]]></name>
+<description><![CDATA[BSSID: <b>78:cd:8e:26:6f:78</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382871000</b><br/>Date: <b>2014-02-02 16:14:31</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49858612,35.31040769</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>78:cd:8e:26:6f:79</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383222000</b><br/>Date: <b>2014-02-02 16:20:22</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.49969949,35.3109757</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[attwifi]]></name>
+<description><![CDATA[BSSID: <b>00:14:6a:c5:af:32</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381945000</b><br/>Date: <b>2014-02-02 15:59:05</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54197372,35.31787303</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Wayport_Access]]></name>
+<description><![CDATA[BSSID: <b>00:14:6a:c5:af:31</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381945000</b><br/>Date: <b>2014-02-02 15:59:05</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54197372,35.31787303</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Carlos's Wi-Fi Network]]></name>
+<description><![CDATA[BSSID: <b>e8:8d:28:61:cd:5d</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383248000</b><br/>Date: <b>2014-02-02 16:20:48</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50362554,35.31279264</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>00:14:6a:c5:af:30</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381946000</b><br/>Date: <b>2014-02-02 15:59:06</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54217162,35.31790986</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TealGiraffe-guest]]></name>
+<description><![CDATA[BSSID: <b>20:aa:4b:0c:2b:20</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383204000</b><br/>Date: <b>2014-02-02 16:20:04</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.4958995,35.30916891</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_40702_10201</b><br/>Capabilities: <b>EDGE;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391382074000</b><br/>Date: <b>2014-02-02 16:01:14</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54421225,35.31891995</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-1F-Officejet Pro 8600]]></name>
+<description><![CDATA[BSSID: <b>ec:9a:74:9c:7c:1f</b><br/>Capabilities: <b>[ESS][P2P]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382850000</b><br/>Date: <b>2014-02-02 16:14:10</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50336355,35.3124261</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink6009]]></name>
+<description><![CDATA[BSSID: <b>10:9f:a9:a9:40:c4</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382810000</b><br/>Date: <b>2014-02-02 16:13:30</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.51321344,35.31467324</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[QK Inc.]]></name>
+<description><![CDATA[BSSID: <b>00:18:0a:51:71:c3</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382656000</b><br/>Date: <b>2014-02-02 16:10:56</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.5408554,35.31747155</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HomeNetwork]]></name>
+<description><![CDATA[BSSID: <b>62:76:00:1c:8a:f1</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383273000</b><br/>Date: <b>2014-02-02 16:21:13</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50287509,35.31415519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FOX11]]></name>
+<description><![CDATA[BSSID: <b>00:1a:c4:ef:49:59</b><br/>Capabilities: <b>[WEP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383281000</b><br/>Date: <b>2014-02-02 16:21:21</b>]]></description><styleUrl>#yellow</styleUrl>
+<Point>
+<coordinates>-106.50247113,35.31488792</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HPN911a.99BEE6]]></name>
+<description><![CDATA[BSSID: <b>02:29:c9:02:3d:02</b><br/>Capabilities: <b>[IBSS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391382844000</b><br/>Date: <b>2014-02-02 16:14:04</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.5048614,35.31258861</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 5]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b7:c7</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382651000</b><br/>Date: <b>2014-02-02 16:10:51</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54189766,35.31772114</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>62:0e:8f:93:b7:c7</b><br/>Capabilities: <b>[WPA-PSK-TKIP][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391381980000</b><br/>Date: <b>2014-02-02 15:59:40</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54419337,35.31879082</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28780505</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391382633000</b><br/>Date: <b>2014-02-02 16:10:33</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54463714,35.31851793</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink7940]]></name>
+<description><![CDATA[BSSID: <b>40:8b:07:26:a0:e4</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382649000</b><br/>Date: <b>2014-02-02 16:10:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54227663,35.3177932</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orona-guest]]></name>
+<description><![CDATA[BSSID: <b>68:7f:74:29:c9:fa</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383227000</b><br/>Date: <b>2014-02-02 16:20:27</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50088853,35.31154024</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[stephen vaughan's Guest Network]]></name>
+<description><![CDATA[BSSID: <b>ba:c7:5d:08:58:b0</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2437</b><br/>Timestamp: <b>1391383274000</b><br/>Date: <b>2014-02-02 16:21:14</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50283583,35.31424051</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[T-Mobile]]></name>
+<description><![CDATA[BSSID: <b>310260_898_28780508</b><br/>Capabilities: <b>HSPA;us</b><br/>Frequency: <b>0</b><br/>Timestamp: <b>1391381984000</b><br/>Date: <b>2014-02-02 15:59:44</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54418127,35.31878426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR27-5G]]></name>
+<description><![CDATA[BSSID: <b>20:e5:2a:11:c3:d5</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>5765</b><br/>Timestamp: <b>1391382850000</b><br/>Date: <b>2014-02-02 16:14:10</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50336355,35.3124261</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR27]]></name>
+<description><![CDATA[BSSID: <b>20:e5:2a:11:c3:d6</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391383260000</b><br/>Date: <b>2014-02-02 16:21:00</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50316236,35.31364279</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HSOmni]]></name>
+<description><![CDATA[BSSID: <b>00:0c:42:6b:58:ca</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2442</b><br/>Timestamp: <b>1391383240000</b><br/>Date: <b>2014-02-02 16:20:40</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.50329942,35.31249393</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[M4m786iA]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:64</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381984000</b><br/>Date: <b>2014-02-02 15:59:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418127,35.31878426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[7357asM]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:63</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381973000</b><br/>Date: <b>2014-02-02 15:59:33</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417325,35.31864412</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Days Inn On-WiFi 4]]></name>
+<description><![CDATA[BSSID: <b>02:0e:8f:93:b7:d3</b><br/>Capabilities: <b>[ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391382043000</b><br/>Date: <b>2014-02-02 16:00:43</b>]]></description><styleUrl>#green</styleUrl>
+<Point>
+<coordinates>-106.54420917,35.31890976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.b8c]]></name>
+<description><![CDATA[BSSID: <b>ec:1a:59:45:db:8c</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][WPS][ESS]</b><br/>Frequency: <b>2462</b><br/>Timestamp: <b>1391383309000</b><br/>Date: <b>2014-02-02 16:21:49</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.50314637,35.31762125</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:65</b><br/>Capabilities: <b>[WPA2-EAP-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382005000</b><br/>Date: <b>2014-02-02 16:00:05</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417938,35.31878655</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:60</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381984000</b><br/>Date: <b>2014-02-02 15:59:44</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54418127,35.31878426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[wicked]]></name>
+<description><![CDATA[BSSID: <b>10:0d:7f:91:11:b0</b><br/>Capabilities: <b>[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382596000</b><br/>Date: <b>2014-02-02 16:09:56</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54470495,35.31884169</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:62</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391381987000</b><br/>Date: <b>2014-02-02 15:59:47</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417766,35.31878583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[BSSID: <b>64:ae:0c:bf:1c:61</b><br/>Capabilities: <b>[WPA2-PSK-CCMP][ESS]</b><br/>Frequency: <b>2412</b><br/>Timestamp: <b>1391382008000</b><br/>Date: <b>2014-02-02 16:00:08</b>]]></description><styleUrl>#red</styleUrl>
+<Point>
+<coordinates>-106.54417939,35.31878656</coordinates></Point>
+</Placemark>
+</Folder>
+</Document></kml>
