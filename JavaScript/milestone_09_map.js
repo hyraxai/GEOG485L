@@ -29,53 +29,108 @@ function initialize(){
     });
     map.addLayer(BINGaerial)
 
-    Layers.BeachParks = new OpenLayers.Layer.Vector('Beach Parks');
-    map.addLayer(Layers.BeachParks);
+    Layers.EastBeach = new OpenLayers.Layer.Vector('East Beach Park');
+    map.addLayer(Layers.EastBeach);
+    Layers.LeadbetterBeach = new OpenLayers.Layer.Vector('Leadbetter Beach Park');
+    map.addLayer(Layers.LeadbetterBeach);
+    Layers.MesaLaneSteps = new OpenLayers.Layer.Vector('Mesa Lane Steps Park');
+    map.addLayer(Layers.MesaLaneSteps);
+    Layers.ThousandSteps = new OpenLayers.Layer.Vector('Thousand Steps Park');
+    map.addLayer(Layers.ThousandSteps);
+    Layers.WestBeach = new OpenLayers.Layer.Vector('West Beach Park');
+    map.addLayer(Layers.WestBeach);
 
-    BeachPark = {
+
+// ===== Styles =====
+
+    EastBeach_style = {
       pointRadius: 12,
-      fillColor: "FFFF00",
-      fillOpacity: .5,
-      strokeOpacity: .5
+      strokeColor: "#4da6ff",
+      fillOpacity: 1,
+      strokeOpacity: 1
     }
+    LeadbetterBeach_style = {
+      pointRadius: 12,
+      fillColor: "#4dffa6",
+      fillOpacity: 1,
+      strokeOpacity: 1
+    }
+    MesaLaneSteps_style = {
+      pointRadius: 12,
+      fillColor: "#ff4da6",
+      fillOpacity: 1,
+      strokeOpacity: 1
+    }
+    ThousandSteps_style = {
+      pointRadius: 12,
+      fillColor: "#ffa64d",
+      fillOpacity: 1,
+      strokeOpacity: 1
+    }
+    WestBeach_style = {
+      pointRadius: 12,
+      fillColor: "#ff4da6",
+      fillOpacity: 1,
+      strokeOpacity: 1
+    }
+    Harbor_style = {
+		  fillColor: "#4da6ff",
+		  fillOpacity: .2,
+		  strokeOpacity: .5,
+		  strokeColor: "#0080ff"
+    }
+    SBC_style = {
+      fillColor: "#80ff00",
+    	fillOpacity: 1,
+    	strokeOpacity: 1,
+    	strokeColor: "#80ff00"
+    }
+    SBHM_style = {
+      fillColor: "#7f00ff",
+    	fillOpacity: 1,
+    	strokeOpacity: 1,
+    	strokeColor: "#7f00ff"
+    }
+
+// ===== Beach Parks =====
 
     var Coord_EastBeachPark = new OpenLayers.Geometry.Point(-119.661723, 34.419577).transform(
 				new OpenLayers.Projection("EPSG:4326"),
 				map.getProjectionObject()
 				);
-    var Point_EastBeachPark = new OpenLayers.Feature.Vector(Coord_EastBeachPark,BeachPark);
     var Coord_LeadbetterBeachPark = new OpenLayers.Geometry.Point(-119.698047, 34.402341).transform(
 				new OpenLayers.Projection("EPSG:4326"),
 				map.getProjectionObject()
 				);
-    var Point_LeadbetterBeachPark = new OpenLayers.Feature.Vector(Coord_LeadbetterBeachPark,BeachPark);
     var Coord_MesaLaneSteps = new OpenLayers.Geometry.Point(-119.730702, 34.398399).transform(
 				new OpenLayers.Projection("EPSG:4326"),
 				map.getProjectionObject()
 				);
-    var Point_MesaLaneSteps = new  OpenLayers.Feature.Vector(Coord_MesaLaneSteps,BeachPark);
     var Coord_ThousandSteps = new OpenLayers.Geometry.Point(-119.713646, 34.396243).transform(
 				new OpenLayers.Projection("EPSG:4326"),
 				map.getProjectionObject()
 				);
-    var Point_ThousandSteps = new  OpenLayers.Feature.Vector(Coord_ThousandSteps,BeachPark);
     var Coord_WestBeachPark = new OpenLayers.Geometry.Point(-119.690929, 34.410744).transform(
 				new OpenLayers.Projection("EPSG:4326"),
 				map.getProjectionObject()
 				);
-    var Point_WestBeachPark = new  OpenLayers.Feature.Vector(Coord_WestBeachPark,BeachPark);
 
-    Layers ["BeachParks"].addFeatures([Point_EastBeachPark, Point_LeadbetterBeachPark, Point_MesaLaneSteps, Point_ThousandSteps, Point_WestBeachPark]);
+    var Point_EastBeachPark = new OpenLayers.Feature.Vector(Coord_EastBeachPark,null,EastBeach_style);
+    var Point_LeadbetterBeachPark = new OpenLayers.Feature.Vector(Coord_LeadbetterBeachPark,null,LeadbetterBeach_style);
+    var Point_MesaLaneSteps = new  OpenLayers.Feature.Vector(Coord_MesaLaneSteps,null,MesaLaneSteps_style);
+    var Point_ThousandSteps = new  OpenLayers.Feature.Vector(Coord_ThousandSteps,null,ThousandSteps_style);
+    var Point_WestBeachPark = new  OpenLayers.Feature.Vector(Coord_WestBeachPark,null,WestBeach_style);
+
+    Layers ["EastBeach"].addFeatures([Point_EastBeachPark]);
+    Layers ["LeadbetterBeach"].addFeatures([Point_LeadbetterBeachPark]);
+    Layers ["MesaLaneSteps"].addFeatures([Point_MesaLaneSteps]);
+    Layers ["ThousandSteps"].addFeatures([Point_ThousandSteps]);
+    Layers ["WestBeach"].addFeatures([Point_WestBeachPark]);
+
+// ===== Santa Barbara Harbor =====
 
     Layers.Harbor = new OpenLayers.Layer.Vector('Santa Barbara Harbor');
     map.addLayer(Layers.Harbor);
-
- 		HarborOutline = {
-		  fillColor: "#CD00CD",
-		  fillOpacity: .2,
-		  strokeOpacity: .5,
-		  strokeColor: "#CD00CD"
-    }
 
     var Coord_SantaBarbaraHarbor = new OpenLayers.Geometry.LinearRing([
     		new OpenLayers.Geometry.Point(-119.694208, 34.404775).transform(
@@ -139,36 +194,30 @@ function initialize(){
 				map.getProjectionObject()
 				),
     ]);
-    var LinearRing_SantaBarbaraHarbor = new OpenLayers.Feature.Vector(Coord_SantaBarbaraHarbor, null, HarborOutline);
+    var LinearRing_SantaBarbaraHarbor = new OpenLayers.Feature.Vector(Coord_SantaBarbaraHarbor, null, Harbor_style);
 
     Layers["Harbor"].addFeatures([LinearRing_SantaBarbaraHarbor]);
 
-    
-    myKMLstyle = {
-      fillColor: "#0000ff",
-    	fillOpacity: 1,
-    	strokeOpacity: 1,
-    	strokeColor: "#0000ff"
-    }
+// ===== KML Layers =====
 
-    Layers.SantaBarbaraChannel = new OpenLayers.Layer.Vector("Santa Barbara Channel", {
+    Layers.SantaBarbaraChannel = new OpenLayers.Layer.Vector("KML - Santa Barbara Channel", {
                 projection: map.displayProjection,
                 visibility: true,
-                style: myKMLstyle,
+                style: SBC_style,
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
                     url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_SBC.kml",
                     format: new OpenLayers.Format.KML({
-                        extractAttributes: true
+                        extractAttributes: false
                     })
                 })
             });
            	map.addLayer(Layers.SantaBarbaraChannel)
 
-    Layers.SBHM = new OpenLayers.Layer.Vector("Santa Barbara Half Marathon", {
+    Layers.SantaBarbaraHalfMarathon = new OpenLayers.Layer.Vector("KML - Santa Barbara Half Marathon", {
                 projection: map.displayProjection,
                 visibility: true,
-                style: myKMLstyle,
+                style: SBHM_style,
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
                     url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_SBHM.kml",
@@ -177,7 +226,7 @@ function initialize(){
                     })
                 })
             });
-           	map.addLayer(Layers.SBHM)
+           	map.addLayer(Layers.SantaBarbaraHalfMarathon)
 
     }
 
