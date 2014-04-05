@@ -13,7 +13,7 @@ function initialize(){
         ];
     var map = new OpenLayers.Map('milestone_09_map', {
 		              controls: baseControls
-		});	
+		});
     var OSMlayer = new OpenLayers.Layer.OSM("Open Street Map");
 				               map.addLayer(OSMlayer);
 				               map.setCenter(
@@ -40,43 +40,47 @@ function initialize(){
     Layers.WestBeach = new OpenLayers.Layer.Vector('West Beach Park');
     map.addLayer(Layers.WestBeach);
 
-
 // ===== Styles =====
 
     EastBeach_style = {
-      pointRadius: 12,
+      pointRadius: 10,
+      fillColor: "#4da6ff",
+      fillOpacity: .75,
+      strokeOpacity: 1,
       strokeColor: "#4da6ff",
-      fillOpacity: 1,
-      strokeOpacity: 1
     }
     LeadbetterBeach_style = {
-      pointRadius: 12,
+      pointRadius: 10,
       fillColor: "#4dffa6",
-      fillOpacity: 1,
-      strokeOpacity: 1
+      fillOpacity: .75,
+      strokeOpacity: 1,
+      strokeColor: "#4dffa6",
     }
     MesaLaneSteps_style = {
-      pointRadius: 12,
+      pointRadius: 10,
       fillColor: "#ff4da6",
-      fillOpacity: 1,
-      strokeOpacity: 1
+      fillOpacity: .75,
+      strokeOpacity: 1,
+      strokeColor: "#ff4da6"
     }
     ThousandSteps_style = {
-      pointRadius: 12,
+      pointRadius: 10,
       fillColor: "#ffa64d",
-      fillOpacity: 1,
-      strokeOpacity: 1
+      fillOpacity: .75,
+      strokeOpacity: 1,
+      strokeColor: "#ffa64d"
     }
     WestBeach_style = {
-      pointRadius: 12,
-      fillColor: "#ff4da6",
-      fillOpacity: 1,
-      strokeOpacity: 1
+      pointRadius: 10,
+      fillColor: "#a64dff",
+      fillOpacity: .75,
+      strokeOpacity: 1,
+      strokeColor: "#a64dff"
     }
     Harbor_style = {
 		  fillColor: "#4da6ff",
 		  fillOpacity: .2,
-		  strokeOpacity: .5,
+		  strokeOpacity: 1,
 		  strokeColor: "#0080ff"
     }
     SBC_style = {
@@ -92,7 +96,7 @@ function initialize(){
     	strokeColor: "#7f00ff"
     }
 
-// ===== Beach Parks =====
+// ===== Beach Parks (Layers) =====
 
     var Coord_EastBeachPark = new OpenLayers.Geometry.Point(-119.661723, 34.419577).transform(
 				new OpenLayers.Projection("EPSG:4326"),
@@ -127,7 +131,7 @@ function initialize(){
     Layers ["ThousandSteps"].addFeatures([Point_ThousandSteps]);
     Layers ["WestBeach"].addFeatures([Point_WestBeachPark]);
 
-// ===== Santa Barbara Harbor =====
+// ===== Santa Barbara Harbor (Layer) =====
 
     Layers.Harbor = new OpenLayers.Layer.Vector('Santa Barbara Harbor');
     map.addLayer(Layers.Harbor);
@@ -228,5 +232,17 @@ function initialize(){
             });
            	map.addLayer(Layers.SantaBarbaraHalfMarathon)
 
-    }
+// ===== WMS Layer =====
 
+    Layers.wms = new OpenLayers.Layer.WMS("WMS - NASA Global Mosaic",
+      "http://wms.jpl.nasa.gov/wms.cgi",
+      {
+      layers: "modis,global_mosaic",
+      transparent: true
+      }, {
+      opacity: 0.5,
+      singleTile: true
+    });
+    map.addLayer(Layers.wms)
+
+}
