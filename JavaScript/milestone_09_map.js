@@ -153,7 +153,7 @@ function initialize(){
 
     Layers.SantaBarbaraChannel = new OpenLayers.Layer.Vector("Santa Barbara Channel", {
                 projection: map.displayProjection,
-                visibility: false,
+                visibility: true,
                 style: myKMLstyle,
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
@@ -164,19 +164,20 @@ function initialize(){
                 })
             });
            	map.addLayer(Layers.SantaBarbaraChannel)
-    }
 
-    Layers.UCSB = new OpenLayers.Layer.Vector("U.C. Santa Barbara", {
+    Layers.SBHM = new OpenLayers.Layer.Vector("Santa Barbara Half Marathon", {
                 projection: map.displayProjection,
                 visibility: true,
                 style: myKMLstyle,
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_UCSB.kml",
+                    url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_SBHM.kml",
                     format: new OpenLayers.Format.KML({
                         extractAttributes: true
                     })
                 })
             });
-           	map.addLayer(Layers.UCSB)
-}
+           	map.addLayer(Layers.SBHM)
+
+    }
+
