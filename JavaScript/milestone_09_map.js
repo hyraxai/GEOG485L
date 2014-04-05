@@ -34,9 +34,9 @@ function initialize(){
 
     BeachPark = {
       pointRadius: 12,
-      fillColor: "0000FF",
-      fillOpacity: 1,
-      strokeOpacity: 1
+      fillColor: "FFFF00",
+      fillOpacity: .5,
+      strokeOpacity: .5
     }
 
     var Coord_EastBeachPark = new OpenLayers.Geometry.Point(-119.661723, 34.419577).transform(
@@ -71,10 +71,10 @@ function initialize(){
     map.addLayer(Layers.Harbor);
 
  		HarborOutline = {
-		  fillColor: "#88ff00",
+		  fillColor: "#CD00CD",
 		  fillOpacity: .2,
 		  strokeOpacity: .5,
-		  strokeColor: "#88ff00"
+		  strokeColor: "#CD00CD"
     }
 
     var Coord_SantaBarbaraHarbor = new OpenLayers.Geometry.LinearRing([
@@ -145,11 +145,11 @@ function initialize(){
 
     
     myKMLstyle = {
-    			fillColor: "#0000ff",
-    			fillOpacity: 1,
-    			strokeOpacity: 1,
-    			strokeColor: "#0000ff"}
-
+      fillColor: "#0000ff",
+    	fillOpacity: 1,
+    	strokeOpacity: 1,
+    	strokeColor: "#0000ff"
+    }
 
     Layers.SantaBarbaraChannel = new OpenLayers.Layer.Vector("Santa Barbara Channel", {
                 projection: map.displayProjection,
@@ -157,11 +157,26 @@ function initialize(){
                 style: myKMLstyle,
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://lpa2.github.io/GEOG485L/XML/milestone_09.kml",
+                    url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_SBC.kml",
                     format: new OpenLayers.Format.KML({
                         extractAttributes: true
                     })
                 })
             });
-           	map.addLayer(Layers.states)
+           	map.addLayer(Layers.SantaBarbaraChannel)
+    }
+
+    Layers.UCSB = new OpenLayers.Layer.Vector("U.C. Santa Barbara", {
+                projection: map.displayProjection,
+                visibility: true,
+                style: myKMLstyle,
+                strategies: [new OpenLayers.Strategy.Fixed()],
+                protocol: new OpenLayers.Protocol.HTTP({
+                    url: "http://lpa2.github.io/GEOG485L/XML/milestone_09_UCSB.kml",
+                    format: new OpenLayers.Format.KML({
+                        extractAttributes: true
+                    })
+                })
+            });
+           	map.addLayer(Layers.UCSB)
 }

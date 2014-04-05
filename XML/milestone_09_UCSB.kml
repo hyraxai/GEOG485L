@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="A"><IconStyle><scale>0.8</scale><Icon><href>http://eservices.ca.gov.googlepages.com/casetta_red.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="B"><IconStyle><scale>1.0</scale><Icon><href>http://eservices.ca.gov.googlepages.com/casetta_red.png</href></Icon></IconStyle><LabelStyle><scale>1</scale></LabelStyle></Style>
+<StyleMap id="C">
+<Pair><key>normal</key><styleUrl>#A</styleUrl></Pair>
+<Pair><key>highlight</key><styleUrl>#B</styleUrl></Pair>
+</StyleMap>
+<Placemark>
+<name>UC Santa Barbara</name>
+<description>&lt;div&gt;University of Santa Barbara&lt;br&gt;Santa Barbara CA 93106&lt;/div&gt;&lt;br&gt;&lt;div&gt;805-893-8000&lt;/div&gt;&lt;img src=&quot;http://www.universityofcalifornia.edu/campuses/images/santabarbara.jpg&quot;&gt;&lt;div&gt;&lt;a href=&quot;http://www.ucsb.edu/&quot;&gt;http://www.ucsb.edu/&lt;/a&gt;&lt;/div&gt;</description>
+<styleUrl>#C</styleUrl>
+<Point><coordinates>-119.847099,34.41566,0</coordinates></Point>
+</Placemark>
+</Document>
+</kml>
+
