@@ -3,8 +3,8 @@ html {
 }
 body {
 	  height: 100%;
-    color: #666666;
-    background: #FFFFFF;
+    color: #EAEAEA;
+    background: #464E54;
     margin-left: 15%;
     margin-right: 15%;
     font-family: Helvetica, Arial, Trebuchet MS, Verdana, Times New Roman, Verdana, sans-serif;
@@ -62,7 +62,7 @@ nav ul ul li a {
 	color: #FFFFFF;
 }	
 nav ul ul li a:hover {
-  background: #666666;
+  background: #464E54;
 }
 nav ul ul ul {
   position: absolute; left: 100%; top:0;
