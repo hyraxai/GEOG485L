@@ -3,14 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>Milestone 9</title>
+    <title>Deep Dive 3</title>
     <link rel="icon" type="image/x-icon" href="../GEOG485L/globe.ico"/>
     <link href="../GEOG485L/CSS/style.css" rel="stylesheet" type="text/css" media="screen">
 <script src="../GEOG485L/JavaScript/geog485_analytics.js" type="text/javascript">
-</script>
-<script src="http://openlayers.org/api/OpenLayers.js" type="text/javascript">
-</script>
-<script src="../GEOG485L/JavaScript/milestone_09_map.js" type="text/javascript">
 </script>
   </head>
     <body onload="initialize()">
@@ -81,42 +77,160 @@
 		    <a class="plain" href="http://lpa2.github.io/GEOG485L/index.html"/>GEOG485L</a></br>
 		    <a class="plain" href="http://www.wolframalpha.com/input/?i=31+March+2014"/>31 March 2014</a>
 	    </p>
-	  	  <h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/milestones/milestones.html#week-11---a-customized-openlayers-mapping-client"/>Milestone 9 (A Customized OpenLayers Mapping Client)</a></h1>
+	  	  <h1><a class="plain" href="http://karlbenedict.com/GEOG485-585/deep-dives/deep-dives.html#week-11-problem-definition-and-data-acquisition"/>Deep Dive 3 (Problem Definition and Data Acquisition)</a></h1>
 	    	  <h2>Q1&#58;</h2>
-            <h3>What is the high-level description of the problem/question you want to help answer through the presentation of a collection of geographic data over the internet?  Please answer in a short paragraph.</h3>
+            <h3>What is the high-level description of the problem/question you want to help answer through the presentation of a collection of geographic data over the internet?</h3>
           <h2>A&#58;</h2>
-            <h3></h3>
+            <h3>Quite often the news media airs stories regarding the destruction of entire towns in the midwest.  I am interested in emergency management (a plan to recover from disasters, natural or manmade).  I would like to identify the Emergency Management infrastructure (fire stations, police stations, etc.) in the state of New Mexico.  This map will display the distribution of infrastructure in the state.</h3>
           <h2>Q2&#58;</h2>
             <h3>Who is the target audience for the information you want to provide?</h3>
           <h2>A&#58;</h2>
-            <h3><h3>
+            <h3>This map is targeted primarily at the residents of the State of New Mexico.  Alternatively, the audience may also be other idividuals who are interested in emergency management.<h3>
           <h2>Q3&#58;</h2>
             <h3>What geographic region does your problem area represent? Please describe it in words (e.g. New Mexico, Alberta Canada, etc.) and define it in terms of a geographic (WGS84) (latitude and longitude) bounding box.</h3>
           <h2>A&#58;</h2>
-            <h3></h3>
+            <h3>This map will be focused solely on the state of New Mexico. (EPSG:4326) LatLongBoundingBox minx="-108.758" miny="31.7845" maxx="-103.127" maxy="36.9052".</h3>
           <h2>Q4&#58;</h2>
             <h3>What types of data do you want to include in your project? Include a description (data content: e.g. elevation data, hydrographic survey, etc.) and types (i.e. raster, vector).</h3>
           <h2>A&#58;</h2>
-            <h3></h3>
+            <h3>I plan on using vector data from New Mexico Resource Geographic Information System Program (RGIS).  This data will display the locations of infrastructure.</h3>
           <h2>Q5&#58;</h2>
             <h3>What projection will you use for the presentation of your project data? Again, describe it, provide your reasoning for selection, and provide the corresponding EPSG code.</h3>
           <h2>A&#58;</h2>
-            <h3></h3>
+            <h3>EPSG:4326.  Nearly all of the data I've found was compatible with this coordinate system.</h3>
           <h2>Q6&#58;</h2>
             <h3>Where do you anticipate acquiring data for the project from?</h3>
           <h2>A&#58;</h2>
-            <h3></h3>
+            <h3>New Mexico Resource Geographic Information System Program (RGIS).</h3>
 <br>
-			    <h2 align="center">Santa Barbara, CA</h2>
-  <div id="milestone_09_map">
-  </div>
+			    <h2 align="center">Data</h2>
+<br>
+          <h2>Dataset&#58; 1</h2>
+            <ul>
+              <li>What is the name of the dataset?</li>
+                <p>HSIP E911 Public Safety Answering Point (PSAP).</p>
+              <li>What type of data (raster/vector) are the dataset?</li>
+                <p>Vector</p>
+              <li>What is the format?</li>
+                <p>image/png</p>
+                <p>image/gif</p>
+                <p>image/jpeg</p>
+                <p>image/png; mode=8bit</p>
+                <p>image/tiff</p>
+                <p>application/vnd.google-earth.kml+xml</p>
+                <p>application/vnd.google-earth.kmz</p>
+              <li>What is the coordinate reference system?</li>
+                <p>EPSG:4326</p>
+              <li>What are the spatial extents of the dataset?</li>
+                <p>West Bounding Coordinate -109.050651333831</p>
+                <p>East Bounding Coordinate -103.002065330281</p>
+                <p>North Bounding Coordinate 37.0002933647488</p>
+                <p>South Bounding Coordinate 31.3323747296804</p>
+            </ul>
+<br>
+<br>
+          <h2>Dataset&#58; 2</h2>
+            <ul>
+              <li>What is the name of the dataset?</li>
+                <p>HSIP Emergency Operations Centers (EOC) in New Mexico</p>
+              <li>What type of data (raster/vector) are the dataset?</li>
+                <p>Vector</p>
+              <li>What is the format?</li>
+                <p>image/png</p>
+                <p>image/gif</p>
+                <p>image/jpeg</p>
+                <p>image/png; mode=8bit</p>
+                <p>image/tiff</p>
+                <p>application/vnd.google-earth.kml+xml</p>
+                <p>application/vnd.google-earth.kmz</p>
+              <li>What is the coordinate reference system?</li>
+                <p>EPSG:4326</p>
+              <li>What are the spatial extents of the dataset?</li>
+                <p>West Bounding Coordinate -108.78991739685</p>
+                <p>East Bounding Coordinate -103.133387885792</p>
+                <p>North Bounding Coordinate 36.9348798151312</p>
+                <p>South Bounding Coordinate 32.2621151481307</p>
+              </ul>
+<br>
+<br>
+          <h2>Dataset&#58; 3</h2>
+            <ul>
+              <li>What is the name of the dataset?</li>
+                <p>HSIP Fire Stations in New Mexico</p>
+              <li>What type of data (raster/vector) are the dataset?</li>
+                <p>Vector</p>
+              <li>What is the format?</li>
+                <p>image/png</p>
+                <p>image/gif</p>
+                <p>image/jpeg</p>
+                <p>image/png; mode=8bit</p>
+                <p>image/tiff</p>
+                <p>application/vnd.google-earth.kml+xml</p>
+                <p>application/vnd.google-earth.kmz</p>
+              <li>What is the coordinate reference system?</li>
+                <p>EPSG:4326</p>
+              <li>What are the spatial extents of the dataset?</li>
+                <p>West Bounding Coordinate -109.038198553461</p>
+                <p>East Bounding Coordinate -103.017908400494</p>
+                <p>North Bounding Coordinate 36.9739549995951</p>
+                <p>South Bounding Coordinate 31.7958055901661</p>
+            </ul>
+<br>
+<br>
+          <h2>Dataset&#58; 4</h2>
+            <ul>
+              <li>What is the name of the dataset?</li>
+                <p>HSIP Hospital in New Mexico</p>
+              <li>What type of data (raster/vector) are the dataset?</li>
+                <p>Vector</p>
+              <li>What is the format?</li>
+                <p>image/png</p>
+                <p>image/gif</p>
+                <p>image/jpeg</p>
+                <p>image/png; mode=8bit</p>
+                <p>image/tiff</p>
+                <p>application/vnd.google-earth.kml+xml</p>
+                <p>application/vnd.google-earth.kmz</p>
+              <li>What is the coordinate reference system?</li>
+                <p>EPSG:4326</p>
+              <li>What are the spatial extents of the dataset?</li>
+                <p>West Bounding Coordinate -108.810074686158</p>
+                <p>East Bounding Coordinate -103.184921033603</p>
+                <p>North Bounding Coordinate 36.8626437768808</p>
+                <p>South Bounding Coordinate 31.8422457306627</p>
+            </ul>
+<br>
+<br>
+          <h2>Dataset&#58; 5</h2>
+            <ul>
+              <li>What is the name of the dataset?</li>
+                <p>HSIP New Mexico State Government Buildings</p>
+              <li>What type of data (raster/vector) are the dataset?</li>
+                <p>Vector</p>
+              <li>What is the format?</li>
+                <p>image/png</p>
+                <p>image/gif</p>
+                <p>image/jpeg</p>
+                <p>image/png; mode=8bit</p>
+                <p>image/tiff</p>
+                <p>application/vnd.google-earth.kml+xml</p>
+                <p>application/vnd.google-earth.kmz</p>
+              <li>What is the coordinate reference system?</li>
+                <p>EPSG:4326</p>
+              <li>What are the spatial extents of the dataset?</li>
+                <p>West Bounding Coordinate -106.755193880005</p>
+                <p>East Bounding Coordinate -105.936051857326</p>
+                <p>North Bounding Coordinate 35.6847290620515</p>
+                <p>South Bounding Coordinate 31.7875511403451</p>
+            </ul>
+<br>
 <br>
 	<div class="pagination">
 	<div class="left">
-		<a class="plain" href="../GEOG485L/milestone_08.html">Previous Milestone</a>
+		<a class="plain" href="../GEOG485L/deepdive_02.html">Previous Deep Dive</a>
 	</div>
 	<div class="right">
-		<a class="plain" href="../GEOG485L/milestone_10.html">Next Milestone</a>
+		<a class="plain" href="../GEOG485L/deepdive_04.html">Next Deep Dive</a>
 	</div>
     </body>
 <br>
