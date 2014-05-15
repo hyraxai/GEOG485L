@@ -8,8 +8,12 @@
     <link href="../GEOG485L/CSS/style.css" rel="stylesheet" type="text/css" media="screen">
 <script src="../GEOG485L/JavaScript/geog485_analytics.js" type="text/javascript">
 </script>
+<script src="http://openlayers.org/api/OpenLayers.js" type="text/javascript">
+</script>
+<script src="../GEOG485L/JavaScript/final_map.js" type="text/javascript">
+</script>
   </head>
-	  <body>
+    <body onload="initialize()">
 <center>
   <nav>
 	  <ul>
@@ -141,7 +145,10 @@
               <li><h4>Add these two styled layers to the mapping client generated for question 4. Provide the layer names for your customized layers in your writeup.</h4></li>
 				    </ol>
 <br>
-	<div class="pagination">
+			    <h2 align="center">Final Map</h2>
+  <div id="final_map">
+  </div>
+<br>	<div class="pagination">
 	<div class="left">
 		<a class="plain" href="../GEOG485L/midterm.html">Previous Exam</a>
 	</div>
