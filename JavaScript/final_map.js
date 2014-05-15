@@ -7,6 +7,8 @@ function initialize(){
             	{projection:myProjection}
     );
 
+    //===== Unstyled Layers ======
+
 		usImagery = new OpenLayers.Layer.WMS(
       "US Imagery Tile Service - USGS", 
       "http://basemap.nationalmap.gov/arcgis/services/USGSImageryTopo/MapServer/WmsServer?",
@@ -14,15 +16,6 @@ function initialize(){
       {isBaseLayer: true}
     );
     map.addLayer(usImagery)
-
-    bernLayer = new OpenLayers.Layer.WMS(
-      "tgr2006se_bern_lka",
-      "http://geog485.unm.edu:8080/geoserver/s_alder117/ows?",
-      {layers: "tgr2006se_bern_lka", version: '1.1.1', transparent: 'true'},
-      {isBaseLayer: false, visibility: true}
-    );
-    map.addLayer(bernLayer)
-
 
     a5contLayer = new OpenLayers.Layer.WMS(
       "35106-A5_CONT",
@@ -56,15 +49,33 @@ function initialize(){
     );
     map.addLayer(a6tifLayer)
 
-    uscountiesLayer = new OpenLayers.Layer.WMS(
-      "US Counties", 
-      "http://webservices.nationalatlas.gov/wms?",
-      {layers: "counties", version: '1.3.0', transparent: 'TRUE'},
-      {isBaseLayer: false, visibility: true, opacity: .8}
+    bernLayer = new OpenLayers.Layer.WMS(
+      "tgr2006se_bern_lka",
+      "http://geog485.unm.edu:8080/geoserver/s_alder117/ows?",
+      {layers: "tgr2006se_bern_lka", version: '1.1.1', transparent: 'true'},
+      {isBaseLayer: false, visibility: true}
     );
+    map.addLayer(bernLayer)
 
-    map.addLayer(uscountiesLayer);
-									
+    //===== Unstyled Layers ======
+
+    style1Layer = new OpenLayers.Layer.WMS(
+      "tgr2006se_bern_lka",
+      "http://geog485.unm.edu:8080/geoserver/s_alder117/ows?",
+      {layers: "tgr2006se_bern_lka", version: '1.1.1', transparent: 'true'},
+      {isBaseLayer: false, visibility: true}
+    );
+    map.addLayer(style1Layer)
+
+    style2Layer = new OpenLayers.Layer.WMS(
+      "tgr2006se_bern_lka",
+      "http://geog485.unm.edu:8080/geoserver/s_alder117/ows?",
+      {layers: "tgr2006se_bern_lka", version: '1.1.1', transparent: 'true'},
+      {isBaseLayer: false, visibility: true}
+    );
+    map.addLayer(style2Layer)
+
+								
 		map.setCenter(
         new OpenLayers.LonLat(lon, lat), zoom
     );
